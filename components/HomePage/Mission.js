@@ -14,9 +14,9 @@ const Mission = () => {
                         <div className='mx-auto'>
                             <div className='missionDisplay mx-auto'>
                                 <h1 className='title text-center pb-5 mb-5'>Mission</h1>
-                                <Image src={clone1} alt='Man hand typing Keyboard' className='clone1' />
+                                <span className='clone1'><Image src={clone1} alt='Man hand typing Keyboard'  /></span>
                                 <p className='regularTextLg missionReguler'>Grant Accounting’ mission is to innovate and streamline the grant billing process for non-profit organizations.</p>
-                                <Image src={clone2} alt='Man hand typing Keyboard' className=' clone2' />
+                                <span className=' clone2'><Image src={clone2} alt='Man hand typing Keyboard'  /></span>
                             </div>
                         </div>
                     </div>

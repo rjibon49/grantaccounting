@@ -108,41 +108,44 @@ const Header = () => {
                             </div>
                         </div>
                 </nav>
-                    <nav className='navbar navbar-expand-lg menuBarItem2'>
-                        <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li className="nav-item dropdown">
-                                <Link href="#" >
-                                    <a className="navLink dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Service</a>
-                                </Link>
-                                <ul className="dropdown-menu">
-                                    <li><Link href="/services/grant_writing_service"><a className="dropdown-item" >Grant Writing Services</a></Link></li>
-                                    <li><Link href="/services/financial_and_managerial_accounting_services"><a className="dropdown-item" >Financial and Managerial Accounting Services</a></Link></li>
-                                    <li><Link href="/services/strategic_planning_services"><a className="dropdown-item" >Strategic Planning Services</a></Link></li>
-                                    <li><Link href="/services/strategic_business_unit"><a className="dropdown-item" >Strategic Business Unit (SBU) Planning & Business Management</a></Link></li>
-                                    <li><Link href="/services/business_valuation_services"><a className="dropdown-item" >Business Valuation Services</a></Link></li>
-                                    <li><Link href="/services/finalcial_consulting"><a className="dropdown-item" >Financial Consulting</a></Link></li>
-                                    <li><Link href="/services/finalcial_management_services"><a className="dropdown-item" >Financial Management Services</a></Link></li>
-                                    <li><Link href="/services/data_analysis_services"><a className="dropdown-item" >Data Analysis Services</a></Link></li>
-                                    <li><Link href="/services/implementation_of_new_account_system"><a className="dropdown-item" >Implementation of new accounting system (QB, Lawson, MIP, FE, or others)</a></Link></li>
-                                </ul>
-                            </li>
-                            <li className="navItem">
-                                <Link href="/instructor"><a className="navLink">Instructors </a></Link>
-                            </li>
-                            <li className="navItem">
-                                <Link href="/courses"><a className="navLink">Courses</a></Link>
-                            </li>
-                            <li className="navItem">
-                                <Link href="#"><a className="navLink">Career</a></Link>
-                            </li>
-                            <li className="navItem">
-                                <Link href="#"><a className="navLink">Volunteer</a></Link>
-                            </li>
-                            <li className="navItem">
-                                <Link href="#"><a className="navLink">Donate</a></Link>
-                            </li>
-                        </ul>
-                    </nav>
+                    
+                    {/* Desktop Version MEnu  */}
+
+                <nav className='navbar navbar-expand-lg menuBarItem2'>
+                    <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li className="nav-item dropdown">
+                            <Link href="#" >
+                                <a className="navLink dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Service</a>
+                            </Link>
+                            <ul className="dropdown-menu">
+                                <li><Link href="/services/grant_writing_service"><a className="dropdown-item" >Grant Writing Services</a></Link></li>
+                                <li><Link href="/services/financial_and_managerial_accounting_services"><a className="dropdown-item" >Financial and Managerial Accounting Services</a></Link></li>
+                                <li><Link href="/services/strategic_planning_services"><a className="dropdown-item" >Strategic Planning Services</a></Link></li>
+                                <li><Link href="/services/strategic_business_unit"><a className="dropdown-item" >Strategic Business Unit (SBU) Planning & Business Management</a></Link></li>
+                                <li><Link href="/services/business_valuation_services"><a className="dropdown-item" >Business Valuation Services</a></Link></li>
+                                <li><Link href="/services/finalcial_consulting"><a className="dropdown-item" >Financial Consulting</a></Link></li>
+                                <li><Link href="/services/finalcial_management_services"><a className="dropdown-item" >Financial Management Services</a></Link></li>
+                                <li><Link href="/services/data_analysis_services"><a className="dropdown-item" >Data Analysis Services</a></Link></li>
+                                <li><Link href="/services/implementation_of_new_account_system"><a className="dropdown-item" >Implementation of new accounting system (QB, Lawson, MIP, FE, or others)</a></Link></li>
+                            </ul>
+                        </li>
+                        <li className="navItem">
+                            <Link href="/instructor"><a className="navLink">Instructors </a></Link>
+                        </li>
+                        <li className="navItem">
+                            <Link href="/courses"><a className="navLink">Courses</a></Link>
+                        </li>
+                        <li className="navItem">
+                            <Link href="#"><a className="navLink">Career</a></Link>
+                        </li>
+                        <li className="navItem">
+                            <Link href="#"><a className="navLink">Volunteer</a></Link>
+                        </li>
+                        <li className="navItem">
+                            <Link href="#"><a className="navLink">Donate</a></Link>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </>
     );
