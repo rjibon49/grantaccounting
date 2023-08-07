@@ -524,7 +524,7 @@ img {
   border-radius: 10px; 
   background: #F1F1F1;
 }
-.vImage {
+.vImage { 
   height: auto;
 }
 .instructorBg {
@@ -549,7 +549,7 @@ img {
 } */
 
 .subsBody {
-  width: 500px;
+  width: 400px;
   background: #FBFBFB;;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
   border-radius: 20px;  
@@ -636,7 +636,7 @@ img {
   background-image: url(../images/demo/volunteer.png);
   background-repeat: no-repeat;
   background-size: contain;
-  height: 90vh;
+  height: 75vh;
 }
 
 .vBody {

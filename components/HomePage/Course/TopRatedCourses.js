@@ -24,12 +24,10 @@ const TopRatedCourses = () => {
                     <p className='viewBtn'>View All</p>
                 </div> */}
                 <div className='row'>
-                <div className='col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 my-3'>
+                    <div className='col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12 my-3'>
                         <div className='courseBg'>
-                            <div className=''>
-                                <div>
-                                    <Image   src={crashCourse} alt='crashCourse' className='courserImage' />
-                                </div>
+                            <div className='text-center'>
+                                <Image   src={crashCourse} alt='crashCourse' className='courserImage' />
                             </div>
                             <div className='p-3'>
                                 <div className='courseTitle'>
@@ -60,12 +58,10 @@ const TopRatedCourses = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 my-3'>
+                    <div className='col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12 my-3'>
                         <div className='courseBg'>
-                            <div className=''>
-                                <div>
-                                    <Image   src={fundrising} alt='Fundraising 101' className='courserImage' />
-                                </div>
+                            <div className='text-center'>
+                                <Image   src={fundrising} alt='Fundraising 101' className='courserImage' />
                             </div>
                             <div className='p-3'>
                                 <div className='courseTitle'>
@@ -96,12 +92,10 @@ const TopRatedCourses = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 my-3'>
+                    <div className='col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12 my-3'>
                         <div className='courseBg'>
-                            <div className=''>
-                                <div>
-                                    <Image   src={faith} alt='salaryAndFringe' className='courserImage' />
-                                </div>
+                            <div className='text-center'>
+                                <Image   src={faith} alt='Faith-based' className='courserImage' />
                             </div>
                             <div className='p-3'>
                                 <div className='courseTitle'>
