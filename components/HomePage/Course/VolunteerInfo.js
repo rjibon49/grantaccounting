@@ -4,7 +4,7 @@ import vol from "../../../public/src/images/demo/volunteer.png";
 
 const VolunteerInfo = () => {
     return (
-        <div className='container-fluid my-5 vImageBg'>
+        <div className='container-fluid vImageBg'>
             <div className='vBody'>
                 <div className='vContent'>
                     <h2 className='semiBoldTextXl'>Join our team as a</h2>

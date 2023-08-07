@@ -25,7 +25,7 @@ const BlogContent = () => {
                         <div className='blogBg'>
                             <div className=''>
                                 <div>
-                                    <Image src={blog1} alt='Course Image' className='' />
+                                    <Image   src={blog1} alt='Course Image' className='' />
                                 </div>
                                 <div className='p-4'>
                                     <Link href="/blog/accounting_for_goverment_grants"><a><h5 className='semibolTextmd'>Accounting for Government Grants</h5></a></Link>
@@ -35,8 +35,8 @@ const BlogContent = () => {
 
                                     <div>
                                         <ul className='d-flex justify-content-between p-0 mt-2 align-items-center'>
-                                            <li className=''><Image src={user} alt='watch' className='me-3' /> Leslie Alexander </li>
-                                            <li className=''><Image src={msg} alt='watch' className='me-3' /> 2 </li>
+                                            <li className=''><Image   src={user} alt='watch' className='me-3' /> Leslie Alexander </li>
+                                            <li className=''><Image   src={msg} alt='watch' className='me-3' /> 2 </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -47,7 +47,7 @@ const BlogContent = () => {
                         <div className='blogBg'>
                             <div className=''>
                                 <div>
-                                    <Image src={blog2} alt='Course Image' className='' />
+                                    <Image   src={blog2} alt='Course Image' className='' />
                                 </div>
                                 <div className='p-4'>
                                     <Link href="/blog/requirements_for_accounting"><a><h5 className='semibolTextmd'>Requirements for accounting for grants from the Government.</h5></a></Link>
@@ -57,8 +57,8 @@ const BlogContent = () => {
 
                                     <div>
                                         <ul className='d-flex justify-content-between p-0 mt-2 align-items-center'>
-                                            <li className=''><Image src={user} alt='watch' className='me-3' /> Devon Lane </li>
-                                            <li className=''><Image src={msg} alt='watch' className='me-3' /> 2 </li>
+                                            <li className=''><Image   src={user} alt='watch' className='me-3' /> Devon Lane </li>
+                                            <li className=''><Image   src={msg} alt='watch' className='me-3' /> 2 </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -69,7 +69,7 @@ const BlogContent = () => {
                         <div className='blogBg'>
                             <div className=''>
                                 <div>
-                                    <Image src={blog3} alt='Course Image' className='' />
+                                    <Image   src={blog3} alt='Course Image' className='' />
                                 </div>
                                 <div className='p-4'>
                                     <Link href="/blog/what_do_you_need_to_do"><a><h5 className='semibolTextmd'>What do you need to do to be good at grant accounting?</h5></a></Link>
@@ -79,8 +79,8 @@ const BlogContent = () => {
 
                                     <div>
                                         <ul className='d-flex justify-content-between p-0 mt-2 align-items-center'>
-                                            <li className=''><Image src={user} alt='watch' className='me-3' /> Devon Lane </li>
-                                            <li className=''><Image src={msg} alt='watch' className='me-3' /> 2 </li>
+                                            <li className=''><Image   src={user} alt='watch' className='me-3' /> Devon Lane </li>
+                                            <li className=''><Image   src={msg} alt='watch' className='me-3' /> 2 </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -91,7 +91,7 @@ const BlogContent = () => {
                         <div className='blogBg'>
                             <div className=''>
                                 <div>
-                                    <Image src={blog4} alt='Course Image' className='' />
+                                    <Image   src={blog4} alt='Course Image' className='' />
                                 </div>
                                 <div className='p-4'>
                                     <Link href="/blog/why_is_grant_accounting"><a><h5 className='semibolTextmd'>Why is grant accounting important?</h5></a></Link>
@@ -101,8 +101,8 @@ const BlogContent = () => {
 
                                     <div>
                                         <ul className='d-flex justify-content-between p-0 mt-2 align-items-center'>
-                                            <li className=''><Image src={user} alt='watch' className='me-3' /> Devon Lane </li>
-                                            <li className=''><Image src={msg} alt='watch' className='me-3' /> 2 </li>
+                                            <li className=''><Image   src={user} alt='watch' className='me-3' /> Devon Lane </li>
+                                            <li className=''><Image   src={msg} alt='watch' className='me-3' /> 2 </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -113,7 +113,7 @@ const BlogContent = () => {
                         <div className='blogBg'>
                             <div className=''>
                                 <div>
-                                    <Image src={blog5} alt='Course Image' className='' />
+                                    <Image   src={blog5} alt='Course Image' className='' />
                                 </div>
                                 <div className='p-4'>
                                     <Link href="/blog/the_skills_needed"><a><h5 className='semibolTextmd'>The skills needed for Grant Accounting</h5></a></Link>
@@ -123,8 +123,8 @@ const BlogContent = () => {
 
                                     <div>
                                         <ul className='d-flex justify-content-between p-0 mt-2 align-items-center'>
-                                            <li className=''><Image src={user} alt='watch' className='me-3' /> Devon Lane </li>
-                                            <li className=''><Image src={msg} alt='watch' className='me-3' /> 2 </li>
+                                            <li className=''><Image   src={user} alt='watch' className='me-3' /> Devon Lane </li>
+                                            <li className=''><Image   src={msg} alt='watch' className='me-3' /> 2 </li>
                                         </ul>
                                     </div>
                                 </div>

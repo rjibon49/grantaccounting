@@ -28,32 +28,32 @@ const BestSellingCourses = () => {
                         <div className='courseBg'>
                             <div className=''>
                                 <div>
-                                    <Image src={cfr} alt='Course Image' className='courserImage' />
+                                    <Image   src={cfr} alt='Course Image' className='courserImage' />
                                 </div>
                             </div>
                             <div className='p-3'>
                                 <div className='courseTitle'>
-                                    <Image src={anthony} alt='Anthony Nguyen' className='instructorImage' />
+                                    <Image   src={anthony} alt='Anthony Nguyen' className='instructorImage' />
                                     <div className=''>
                                         <Link href="/courses/cfr_200"><a><h5 className='semibolTextmd'>2 CFR 200</h5></a></Link>
                                         <p className='regularTextDark' >Anthony Nguyen</p>
                                     </div>
                                 </div>
-                                <div>
-                                    <span className=''>
-                                        <Image src={star} alt='Star' className='mx-1' />
-                                        <Image src={star} alt='Star' className='mx-1' />
-                                        <Image src={star} alt='Star' className='mx-1' />
-                                        <Image src={star} alt='Star' className='mx-1' />
-                                        <Image src={starSlash} alt='Star' className='ms-1 me-4' />
+                                <div className="d-flex gap-3">
+                                    <span>
+                                        <Image   src={star} alt='Star' className='mx-1' />
+                                        <Image   src={star} alt='Star' className='mx-1' />
+                                        <Image   src={star} alt='Star' className='mx-1' />
+                                        <Image   src={star} alt='Star' className='mx-1' />
+                                        <Image   src={starSlash} alt='Star' className='ms-1 me-4' />
                                     </span>
                                     <span className='regulerTextDark'>4.5</span>
                                 </div>
                                 <div>
-                                    <ul className='d-flex justify-content-start p-0 mt-2 align-items-center'>
-                                        <li className='me-3'><Image src={watch} alt='watch' className='' /> 4:50 Hours </li>
+                                    <ul className='d-flex justify-content-start p-0 mt-2 align-items-center flex-wrap gap-2 '>
+                                        <li className='me-3'><Image   src={watch} alt='watch' className='' /> 4:50 Hours </li>
                                         <li className='me-3'> | </li>
-                                        <li className='me-3'><Image src={calender} alt='watch' className='' /> 19 July 2023 </li>
+                                        <li className='me-3'><Image   src={calender} alt='watch' className='' /> 19 July 2023 </li>
                                         <Link href="/courses/cfr_200"><a><li className='cartBtn'>Enroll</li></a></Link>
                                     </ul>
                                 </div>
@@ -64,32 +64,32 @@ const BestSellingCourses = () => {
                         <div className='courseBg'>
                             <div className=''>
                                 <div>
-                                    <Image src={indicate} alt='Indicate Cost' className='courserImage' />
+                                    <Image   src={indicate} alt='Indicate Cost' className='courserImage' />
                                 </div>
                             </div>
                             <div className='p-3'>
                                 <div className='courseTitle'>
-                                    <Image src={anthony} alt='Anthony Nguyen' className='instructorImage' />
+                                    <Image   src={anthony} alt='Anthony Nguyen' className='instructorImage' />
                                     <div className=''>
                                         <Link href="/#"><a><h5 className='semibolTextmd'>Indicate Cost</h5></a></Link>
                                         <p className='regularTextDark' >Anthony Nguyen</p>
                                     </div>
                                 </div>
-                                <div>
-                                    <span className=''>
-                                        <Image src={star} alt='Star' className='mx-1' />
-                                        <Image src={star} alt='Star' className='mx-1' />
-                                        <Image src={star} alt='Star' className='mx-1' />
-                                        <Image src={star} alt='Star' className='mx-1' />
-                                        <Image src={starSlash} alt='Star' className='ms-1 me-4' />
+                                <div className="d-flex gap-3">
+                                    <span>
+                                        <Image   src={star} alt='Star' className='mx-1' />
+                                        <Image   src={star} alt='Star' className='mx-1' />
+                                        <Image   src={star} alt='Star' className='mx-1' />
+                                        <Image   src={star} alt='Star' className='mx-1' />
+                                        <Image   src={starSlash} alt='Star' className='ms-1 me-4' />
                                     </span>
                                     <span className='regulerTextDark'>4.5</span>
                                 </div>
                                 <div>
-                                    <ul className='d-flex justify-content-start p-0 mt-2 align-items-center'>
-                                        <li className='me-3'><Image src={watch} alt='watch' className='' /> 4:50 Hours </li>
+                                    <ul className='d-flex justify-content-start p-0 mt-2 align-items-center flex-wrap gap-2 '>
+                                        <li className='me-3'><Image   src={watch} alt='watch' className='' /> 4:50 Hours </li>
                                         <li className='me-3'> | </li>
-                                        <li className='me-3'><Image src={calender} alt='watch' className='' /> 19 July 2023 </li>
+                                        <li className='me-3'><Image   src={calender} alt='watch' className='' /> 19 July 2023 </li>
                                         <Link href="/#"><a><li className='cartBtn'>Enroll</li></a></Link>
                                     </ul>
                                 </div>
@@ -100,32 +100,32 @@ const BestSellingCourses = () => {
                         <div className='courseBg'>
                             <div className=''>
                                 <div>
-                                    <Image src={salaryAndFringe} alt='salaryAndFringe' className='courserImage' />
+                                    <Image   src={salaryAndFringe} alt='salaryAndFringe' className='courserImage' />
                                 </div>
                             </div>
                             <div className='p-3'>
                                 <div className='courseTitle'>
-                                    <Image src={anthony} alt='Anthony Nguyen' className='instructorImage' />
+                                    <Image   src={anthony} alt='Anthony Nguyen' className='instructorImage' />
                                     <div className=''>
                                         <Link href="/#"><a><h5 className='semibolTextmd'>Salary and Fringe Benefit - Salary Allocation</h5></a></Link>
                                         <p className='regularTextDark' >Anthony Nguyen</p>
                                     </div>
                                 </div>
-                                <div>
-                                    <span className=''>
-                                        <Image src={star} alt='Star' className='mx-1' />
-                                        <Image src={star} alt='Star' className='mx-1' />
-                                        <Image src={star} alt='Star' className='mx-1' />
-                                        <Image src={star} alt='Star' className='mx-1' />
-                                        <Image src={starSlash} alt='Star' className='ms-1 me-4' />
+                                <div className="d-flex gap-3">
+                                    <span>
+                                        <Image   src={star} alt='Star' className='mx-1' />
+                                        <Image   src={star} alt='Star' className='mx-1' />
+                                        <Image   src={star} alt='Star' className='mx-1' />
+                                        <Image   src={star} alt='Star' className='mx-1' />
+                                        <Image   src={starSlash} alt='Star' className='ms-1 me-4' />
                                     </span>
                                     <span className='regulerTextDark'>4.5</span>
                                 </div>
                                 <div>
-                                    <ul className='d-flex justify-content-start p-0 mt-2 align-items-center'>
-                                        <li className='me-3'><Image src={watch} alt='watch' className='' /> 4:50 Hours </li>
+                                    <ul className='d-flex justify-content-start p-0 mt-2 align-items-center flex-wrap gap-2 '>
+                                        <li className='me-3'><Image   src={watch} alt='watch' className='' /> 4:50 Hours </li>
                                         <li className='me-3'> | </li>
-                                        <li className='me-3'><Image src={calender} alt='watch' className='' /> 19 July 2023 </li>
+                                        <li className='me-3'><Image   src={calender} alt='watch' className='' /> 19 July 2023 </li>
                                         <Link href="/#"><a><li className='cartBtn'>Enroll</li></a></Link>
                                     </ul>
                                 </div>

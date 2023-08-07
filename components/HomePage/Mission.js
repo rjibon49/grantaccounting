@@ -14,16 +14,16 @@ const Mission = () => {
                         <div className='mx-auto'>
                             <div className='missionDisplay mx-auto'>
                                 <h1 className='title text-center pb-5 mb-5'>Mission</h1>
-                                <span className='clone1'><Image src={clone1} alt='Man hand typing Keyboard'  /></span>
+                                <span className='clone1'><Image   src={clone1} alt='Man hand typing Keyboard'  /></span>
                                 <p className='regularTextLg missionReguler'>Grant Accounting’ mission is to innovate and streamline the grant billing process for non-profit organizations.</p>
-                                <span className=' clone2'><Image src={clone2} alt='Man hand typing Keyboard'  /></span>
+                                <span className=' clone2'><Image   src={clone2} alt='Man hand typing Keyboard'  /></span>
                             </div>
                         </div>
                     </div>
                     <div className='col-xxl-6 col-xl-6 col-lg-6 p-0'>
                         <div className=''>
                             <div className=''>
-                                {/* <Image src={invest} alt='Man hand typing Keyboard' className='bannerKeyboard' /> */}
+                                {/* <Image   src={invest} alt='Man hand typing Keyboard' className='bannerKeyboard' /> */}
                             </div>
                         </div>
                     </div>

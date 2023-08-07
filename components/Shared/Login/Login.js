@@ -13,7 +13,7 @@ const Login = () => {
                 <div className='row'>
                     <div className='col-xxl-8 col-xl-8 col-lg-7 '>
                         <div className='loginImage'>
-                            <Image src={log} alt='Login Page Image' className='' />
+                            <Image   src={log} alt='Login Page Image' className='' />
                         </div>
                     </div>
                     <div className='col-xxl-4 col-xl-4 col-lg-5'>
@@ -53,8 +53,8 @@ const Login = () => {
                             </div>
                         </form>
                         <div>
-                            <li className='loginLi mb-4'> <Link href="#" className=''><a><Image src={goo} alt='Facebook Login icon' className='me-3' />Login with Google Account</a></Link></li>
-                            <li className='loginLi'><Link href="#" className=''><a><Image src={fb} alt='Facebook Login icon' className='me-3' />Login with Facebook Account</a></Link></li>
+                            <li className='loginLi mb-4'> <Link href="#" className=''><a><Image   src={goo} alt='Facebook Login icon' className='me-3' />Login with Google Account</a></Link></li>
+                            <li className='loginLi'><Link href="#" className=''><a><Image   src={fb} alt='Facebook Login icon' className='me-3' />Login with Facebook Account</a></Link></li>
                         </div>
                         <div className='text-center mt-5'>
                             <p className='regularTextLgDark my-5'>Don't have an account ? <Link href="/register" className=''><a>Sign Up</a></Link></p>

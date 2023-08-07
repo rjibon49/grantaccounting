@@ -16,7 +16,7 @@ const Cfr200 = () => {
     return (
         <div className='mt-5 pb-5'>
             <div className='courseDetailsImage'>
-                <Image src={cfrL} alt='2 CFR 200' className='' />
+                <Image   src={cfrL} alt='2 CFR 200' className='' />
                 <div className='container'>
                     <div className='row'>
                         <div className='col-xxl-8'>
@@ -34,14 +34,14 @@ const Cfr200 = () => {
                                 <div>
                                     <ul className='d-flex justify-content-start p-0 mt-2 align-items-center pb-3'>
                                         <span className=''>
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={starSlash} alt='Star' className='ms-1 me-4' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={starSlash} alt='Star' className='ms-1 me-4' />
                                             <span className='regulerTextDark'>4.5</span>
                                         </span>
-                                        <li className='ms-5 me-3'><Image src={watch} alt='watch' className='' /> 4:50 Hours </li>
+                                        <li className='ms-5 me-3'><Image   src={watch} alt='watch' className='' /> 4:50 Hours </li>
                                     </ul>
                                     <Link href="/#"><a><span className='cartBtn'>Enroll</span></a></Link>
                                 </div>
@@ -51,18 +51,18 @@ const Cfr200 = () => {
                         <div className='col-xxl-4 col-xl- col-lg-4 col-md-6 col-sm-12 col-xs-12 my-3'>
                             <div className='profileBody text-center mx-4'>
                                 <div className='p-5'>
-                                    <Image src={anthony} alt='Anthony Nguyen' className='' />
+                                    <Image   src={anthony} alt='Anthony Nguyen' className='' />
                                     <div className='py-3'>
                                         <h5 className='semibolTextmd'>Anthony Nguyen</h5>
                                         <p className='regulerTextDark'>CEO / Executive Director</p>
                                     </div>
                                     <div className='mb-3'>
                                         <span className=''>
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={starB} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={starB} alt='Star' className='mx-1' />
                                         </span>
                                     </div>
                                     <div className='text-center'>
@@ -77,7 +77,7 @@ const Cfr200 = () => {
                                 <div className="modal-dialog modal-dialog-centered">
                                     <div className="modal-content">
                                         <div className="modal-header">
-                                            <Image src={anthony} alt='Anthony Nguyen' className='' />
+                                            <Image   src={anthony} alt='Anthony Nguyen' className='' />
                                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div className='py-3 ps-3'>
@@ -88,9 +88,9 @@ const Cfr200 = () => {
                                         Dung 'Anthony' Nguyen is a CEO and Founder of Grant Accounting . Grant Accounting is a 501(c)3 non-profit is founded in March 2023 in to services for other non-profit organizations. Anthony was awarded a bachelor’s in accounting from California State University, San Bernardino. He is furthering his education and professional acumen by pursuing both a Masters Degree of Human Resource Management, and the Certified Public Accountant accreditation. Anthony worked for the IRS and provide outstanding tax services. He provides non-profit management, budgeting and the lead accountant at Habitat for Humanity of Orange County. On his spare time, he loves to travel with his wife and son.
                                         </div>
                                         <div className='pb-5 pt-3 w-50 d-flex justify-content-around'>
-                                            <Link href="tel:(617) 371-7731"><a><Image src={cellPhone} alt='cellPhone' className='' /></a></Link>
-                                            <Image src={linkedin} alt='Linedin' className='' />
-                                            <Link href="mailto:anguyen@grantaccounting.org"><a><Image src={mailBox} alt='Mail Box' className='' /></a></Link>
+                                            <Link href="tel:(617) 371-7731"><a><Image   src={cellPhone} alt='cellPhone' className='' /></a></Link>
+                                            <Image   src={linkedin} alt='Linedin' className='' />
+                                            <Link href="mailto:anguyen@grantaccounting.org"><a><Image   src={mailBox} alt='Mail Box' className='' /></a></Link>
                                         </div>
                                         <div className="modal-footer">
                                             <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>

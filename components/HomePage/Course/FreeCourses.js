@@ -70,12 +70,12 @@ const FreeCourses = () => {
                                 <div className='courseBg'>
                                     <div className=''>
                                         <div>
-                                            <Image src={reviewCharity} alt='Course Image' className='courserImage' />
+                                            <Image   src={reviewCharity} alt='Course Image' className='courserImage' />
                                         </div>
                                     </div>
                                     <div className='p-3'>
                                         <div className='courseTitle'>
-                                            <Image src={anthony} alt='Anthony Nguyen' className='instructorImage' />
+                                            <Image   src={anthony} alt='Anthony Nguyen' className='instructorImage' />
                                             <div className=''>
                                                 <Link href="/#"><a><h5 className='semibolTextmd'>Review Charity Navigator rating</h5></a></Link>
                                                 <p className='regularTextDark' >Anthony Nguyen</p>
@@ -83,19 +83,19 @@ const FreeCourses = () => {
                                         </div>
                                         <div>
                                             <span className=''>
-                                                <Image src={star} alt='Star' className='mx-1' />
-                                                <Image src={star} alt='Star' className='mx-1' />
-                                                <Image src={star} alt='Star' className='mx-1' />
-                                                <Image src={star} alt='Star' className='mx-1' />
-                                                <Image src={starSlash} alt='Star' className='ms-1 me-4' />
+                                                <Image   src={star} alt='Star' className='mx-1' />
+                                                <Image   src={star} alt='Star' className='mx-1' />
+                                                <Image   src={star} alt='Star' className='mx-1' />
+                                                <Image   src={star} alt='Star' className='mx-1' />
+                                                <Image   src={starSlash} alt='Star' className='ms-1 me-4' />
                                             </span>
                                             <span className='regulerTextDark'>4.5</span>
                                         </div>
                                         <div>
-                                            <ul className='d-flex justify-content-start p-0 mt-2 align-items-center'>
-                                                <li className='me-3'><Image src={watch} alt='watch' className='' /> 4:50 Hours </li>
+                                            <ul className='d-flex justify-content-start p-0 mt-2 align-items-center flex-wrap gap-2 '>
+                                                <li className='me-3'><Image   src={watch} alt='watch' className='' /> 4:50 Hours </li>
                                                 <li className='me-3'> | </li>
-                                                <li className='me-3'><Image src={calender} alt='watch' className='' /> 19 July 2023 </li>
+                                                <li className='me-3'><Image   src={calender} alt='watch' className='' /> 19 July 2023 </li>
                                                 <Link href="/#"><li className='cartBtn'><a>Free</a></li></Link>
                                             </ul>
                                         </div>
@@ -106,12 +106,12 @@ const FreeCourses = () => {
                                 <div className='courseBg'>
                                     <div className=''>
                                         <div>
-                                            <Image src={nonProfit} alt='Course Image' className='courserImage' />
+                                            <Image   src={nonProfit} alt='Course Image' className='courserImage' />
                                         </div>
                                     </div>
                                     <div className='p-3'>
                                         <div className='courseTitle'>
-                                            <Image src={anthony} alt='Anthony Nguyen' className='instructorImage' />
+                                            <Image   src={anthony} alt='Anthony Nguyen' className='instructorImage' />
                                             <div className=''>
                                                 <Link href="/#"><a><h5 className='semibolTextmd'>How to form a non-profit</h5></a></Link>
                                                 <p className='regularTextDark' >Anthony Nguyen</p>
@@ -119,19 +119,19 @@ const FreeCourses = () => {
                                         </div>
                                         <div>
                                             <span className=''>
-                                                <Image src={star} alt='Star' className='mx-1' />
-                                                <Image src={star} alt='Star' className='mx-1' />
-                                                <Image src={star} alt='Star' className='mx-1' />
-                                                <Image src={star} alt='Star' className='mx-1' />
-                                                <Image src={starSlash} alt='Star' className='ms-1 me-4' />
+                                                <Image   src={star} alt='Star' className='mx-1' />
+                                                <Image   src={star} alt='Star' className='mx-1' />
+                                                <Image   src={star} alt='Star' className='mx-1' />
+                                                <Image   src={star} alt='Star' className='mx-1' />
+                                                <Image   src={starSlash} alt='Star' className='ms-1 me-4' />
                                             </span>
                                             <span className='regulerTextDark'>4.5</span>
                                         </div>
                                         <div>
-                                            <ul className='d-flex justify-content-start p-0 mt-2 align-items-center'>
-                                                <li className='me-3'><Image src={watch} alt='watch' className='' /> 4:50 Hours </li>
+                                            <ul className='d-flex justify-content-start p-0 mt-2 align-items-center flex-wrap gap-2 '>
+                                                <li className='me-3'><Image   src={watch} alt='watch' className='' /> 4:50 Hours </li>
                                                 <li className='me-3'> | </li>
-                                                <li className='me-3'><Image src={calender} alt='watch' className='' /> 19 July 2023 </li>
+                                                <li className='me-3'><Image   src={calender} alt='watch' className='' /> 19 July 2023 </li>
                                                 <Link href="/#"><li className='cartBtn'><a>Free</a></li></Link>
                                             </ul>
                                         </div>
@@ -142,12 +142,12 @@ const FreeCourses = () => {
                                 <div className='courseBg'>
                                     <div className=''>
                                         <div>
-                                            <Image src={selecting} alt='Course Image' className='courserImage' />
+                                            <Image   src={selecting} alt='Course Image' className='courserImage' />
                                         </div>
                                     </div>
                                     <div className='p-3'>
                                         <div className='courseTitle'>
-                                            <Image src={anthony} alt='Anthony Nguyen' className='instructorImage' />
+                                            <Image   src={anthony} alt='Anthony Nguyen' className='instructorImage' />
                                             <div className=''>
                                                 <Link href="/#"><a><h5 className='semibolTextmd'>Selecting Board members</h5></a></Link>
                                                 <p className='regularTextDark' >Anthony Nguyen</p>
@@ -155,19 +155,19 @@ const FreeCourses = () => {
                                         </div>
                                         <div>
                                             <span className=''>
-                                                <Image src={star} alt='Star' className='mx-1' />
-                                                <Image src={star} alt='Star' className='mx-1' />
-                                                <Image src={star} alt='Star' className='mx-1' />
-                                                <Image src={star} alt='Star' className='mx-1' />
-                                                <Image src={starSlash} alt='Star' className='ms-1 me-4' />
+                                                <Image   src={star} alt='Star' className='mx-1' />
+                                                <Image   src={star} alt='Star' className='mx-1' />
+                                                <Image   src={star} alt='Star' className='mx-1' />
+                                                <Image   src={star} alt='Star' className='mx-1' />
+                                                <Image   src={starSlash} alt='Star' className='ms-1 me-4' />
                                             </span>
                                             <span className='regulerTextDark'>4.5</span>
                                         </div>
                                         <div>
-                                            <ul className='d-flex justify-content-start p-0 mt-2 align-items-center'>
-                                                <li className='me-3'><Image src={watch} alt='watch' className='' /> 4:50 Hours </li>
+                                            <ul className='d-flex justify-content-start p-0 mt-2 align-items-center flex-wrap gap-2 '>
+                                                <li className='me-3'><Image   src={watch} alt='watch' className='' /> 4:50 Hours </li>
                                                 <li className='me-3'> | </li>
-                                                <li className='me-3'><Image src={calender} alt='watch' className='' /> 19 July 2023 </li>
+                                                <li className='me-3'><Image   src={calender} alt='watch' className='' /> 19 July 2023 </li>
                                                 <Link href="/#"><li className='cartBtn'><a>Free</a></li></Link>
                                             </ul>
                                         </div>
@@ -178,12 +178,12 @@ const FreeCourses = () => {
                                 <div className='courseBg'>
                                     <div className=''>
                                         <div>
-                                            <Image src={financialReporting} alt='Course Image' className='courserImage' />
+                                            <Image   src={financialReporting} alt='Course Image' className='courserImage' />
                                         </div>
                                     </div>
                                     <div className='p-3'>
                                         <div className='courseTitle'>
-                                            <Image src={anthony} alt='Anthony Nguyen' className='instructorImage' />
+                                            <Image   src={anthony} alt='Anthony Nguyen' className='instructorImage' />
                                             <div className=''>
                                                 <Link href="/#"><a><h5 className='semibolTextmd'>Financial Reporting</h5></a></Link>
                                                 <p className='regularTextDark' >Anthony Nguyen</p>
@@ -191,19 +191,19 @@ const FreeCourses = () => {
                                         </div>
                                         <div>
                                             <span className=''>
-                                                <Image src={star} alt='Star' className='mx-1' />
-                                                <Image src={star} alt='Star' className='mx-1' />
-                                                <Image src={star} alt='Star' className='mx-1' />
-                                                <Image src={star} alt='Star' className='mx-1' />
-                                                <Image src={starSlash} alt='Star' className='ms-1 me-4' />
+                                                <Image   src={star} alt='Star' className='mx-1' />
+                                                <Image   src={star} alt='Star' className='mx-1' />
+                                                <Image   src={star} alt='Star' className='mx-1' />
+                                                <Image   src={star} alt='Star' className='mx-1' />
+                                                <Image   src={starSlash} alt='Star' className='ms-1 me-4' />
                                             </span>
                                             <span className='regulerTextDark'>4.5</span>
                                         </div>
                                         <div>
-                                            <ul className='d-flex justify-content-start p-0 mt-2 align-items-center'>
-                                                <li className='me-3'><Image src={watch} alt='watch' className='' /> 4:50 Hours </li>
+                                            <ul className='d-flex justify-content-start p-0 mt-2 align-items-center flex-wrap gap-2 '>
+                                                <li className='me-3'><Image   src={watch} alt='watch' className='' /> 4:50 Hours </li>
                                                 <li className='me-3'> | </li>
-                                                <li className='me-3'><Image src={calender} alt='watch' className='' /> 19 July 2023 </li>
+                                                <li className='me-3'><Image   src={calender} alt='watch' className='' /> 19 July 2023 </li>
                                                 <Link href="/#"><li className='cartBtn'><a>Free</a></li></Link>
                                             </ul>
                                         </div>
@@ -214,12 +214,12 @@ const FreeCourses = () => {
                                 <div className='courseBg'>
                                     <div className=''>
                                         <div>
-                                            <Image src={productive} alt='Course Image' className='courserImage' />
+                                            <Image   src={productive} alt='Course Image' className='courserImage' />
                                         </div>
                                     </div>
                                     <div className='p-3'>
                                         <div className='courseTitle'>
-                                            <Image src={anthony} alt='Anthony Nguyen' className='instructorImage' />
+                                            <Image   src={anthony} alt='Anthony Nguyen' className='instructorImage' />
                                             <div className=''>
                                                 <Link href="/#"><a><h5 className='semibolTextmd'>How to have a productive meeting</h5></a></Link>
                                                 <p className='regularTextDark' >Anthony Nguyen</p>
@@ -227,19 +227,19 @@ const FreeCourses = () => {
                                         </div>
                                         <div>
                                             <span className=''>
-                                                <Image src={star} alt='Star' className='mx-1' />
-                                                <Image src={star} alt='Star' className='mx-1' />
-                                                <Image src={star} alt='Star' className='mx-1' />
-                                                <Image src={star} alt='Star' className='mx-1' />
-                                                <Image src={starSlash} alt='Star' className='ms-1 me-4' />
+                                                <Image   src={star} alt='Star' className='mx-1' />
+                                                <Image   src={star} alt='Star' className='mx-1' />
+                                                <Image   src={star} alt='Star' className='mx-1' />
+                                                <Image   src={star} alt='Star' className='mx-1' />
+                                                <Image   src={starSlash} alt='Star' className='ms-1 me-4' />
                                             </span>
                                             <span className='regulerTextDark'>4.5</span>
                                         </div>
                                         <div>
-                                            <ul className='d-flex justify-content-start p-0 mt-2 align-items-center'>
-                                                <li className='me-3'><Image src={watch} alt='watch' className='' /> 4:50 Hours </li>
+                                            <ul className='d-flex justify-content-start p-0 mt-2 align-items-center flex-wrap gap-2 '>
+                                                <li className='me-3'><Image   src={watch} alt='watch' className='' /> 4:50 Hours </li>
                                                 <li className='me-3'> | </li>
-                                                <li className='me-3'><Image src={calender} alt='watch' className='' /> 19 July 2023 </li>
+                                                <li className='me-3'><Image   src={calender} alt='watch' className='' /> 19 July 2023 </li>
                                                 <Link href="/#"><li className='cartBtn'><a>Free</a></li></Link>
                                             </ul>
                                         </div>

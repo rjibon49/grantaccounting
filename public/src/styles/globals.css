@@ -485,8 +485,7 @@ img {
 .serviceBody {
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.12);
   border-radius: 10px;
-  /* width: 424px; */
-  height: 251px;
+  height: 260px;
   background: #FEFEFE;
 }
 .serviceBodyItem {
@@ -494,6 +493,11 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.serviceImageIcon {
+  display: block !important;
+  margin: 0 auto !important;
 }
 
 /* .featureBody {
@@ -510,8 +514,10 @@ img {
   box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.04);
 }
 .courseTitle {
+  gap: 10px;
   display: grid;
-  grid-template-columns: 75px 100%;
+  grid-template-columns: 100px 75%;
+  align-items: center;
 }
 .courseBg {
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.12);
@@ -532,8 +538,10 @@ img {
   max-width: 395px;
 }
 .instructorImage {
-  width: 60px !important;
-  height: 60px !important;
+  min-width: 80px !important;
+  min-height: 80px !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 /* .courserImage {
   width: 100% !important;
@@ -638,7 +646,7 @@ img {
 .vContent {
   position: absolute;
   top: 100px;
-  right: 550px;
+  left: 50%;
 }
 
 .Vdescription {
@@ -669,6 +677,12 @@ img {
   .title {
     font-size: 40px;
   }
+  .extraBoldColor {
+    font-size: 50px;
+  }
+  .semiBoldTextXl {
+    font-size: 25px;
+  }
   .missionCol {
     min-height: 550px;
   }
@@ -687,6 +701,16 @@ img {
   }
   .bannerBg {
     height: 65vh;
+  }
+  .fCourse {
+    width: 100%;
+  }
+  .vContent {
+    top: 40px;
+    left: 50%;
+  }
+  .vImageBg {
+    height: 50vh;
   }
 }
 
@@ -733,6 +757,12 @@ img {
  .serviceImage {
   margin: 10px 0px 40px 0px;
 }
+.fCourse {
+  width: 100%;
+}
+.vImageBg {
+  height: 40vh;
+}
 }
 @media (min-width: 321px) and (max-width: 480px) {
   .bannerBg {
@@ -740,6 +770,15 @@ img {
   }
   .title {
     font-size: 50px;
+  }
+  .extraBoldColor {
+    font-size: 40px;
+  }
+  .semiBoldTextXl {
+    font-size: 25px;
+  }
+  .Vdescription {
+    max-width: 100%;
   }
   .headingBg {
     display: none;
@@ -786,6 +825,12 @@ img {
   .py {
     padding: 15px 0;
   }
+  .vContent {
+    position: static;
+  }
+  .vImageBg {
+    height: 25vh;
+}
 }
 
 @media (max-width: 320px)  {
@@ -816,7 +861,7 @@ img {
     width: 100%;
   }
   .fCourse {
-    width: 300px;
+    width: 100%;
   }
   .subsInfo {
     padding-left: 12%;
@@ -845,5 +890,11 @@ img {
 }
 .py {
   padding: 15px 0;
+}
+.vContent {
+  display: none;
+}
+.vImageBg {
+  display: none;
 }
 }

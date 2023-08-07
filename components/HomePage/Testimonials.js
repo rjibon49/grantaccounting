@@ -64,17 +64,17 @@ const Testimonials = () => {
                                     <div className='mx-auto p-5'>
                                         <div className=''>
                                             <div className='testifonialTitle'>
-                                                <Image src={anonymous} alt='anonymous' className='' />
+                                                <Image   src={anonymous} alt='anonymous' className='' />
                                                 <div className=''>
                                                     <h5 className='semibolTextmd'>Jerome Bell</h5>
                                                     <p className='regularTextDark'>Student</p>
                                                     <div>
                                                         <span className=''>
-                                                            <Image src={star} alt='Star' className='mx-1' />
-                                                            <Image src={star} alt='Star' className='mx-1' />
-                                                            <Image src={star} alt='Star' className='mx-1' />
-                                                            <Image src={star} alt='Star' className='mx-1' />
-                                                            <Image src={star} alt='Star' className='mx-1' />
+                                                            <Image   src={star} alt='Star' className='mx-1' />
+                                                            <Image   src={star} alt='Star' className='mx-1' />
+                                                            <Image   src={star} alt='Star' className='mx-1' />
+                                                            <Image   src={star} alt='Star' className='mx-1' />
+                                                            <Image   src={star} alt='Star' className='mx-1' />
                                                         </span>
                                                     </div>
                                                 </div>
@@ -91,17 +91,17 @@ const Testimonials = () => {
                                     <div className='mx-auto p-5'>
                                         <div className=''>
                                             <div className='testifonialTitle'>
-                                                <Image src={persion6} alt='Women' className='' />
+                                                <Image   src={persion6} alt='Women' className='' />
                                                 <div className=''>
                                                     <h5 className='semibolTextmd'>Bessie Cooper</h5>
                                                     <p className='regularTextDark'>Student</p>
                                                     <div>
                                                         <span className=''>
-                                                            <Image src={star} alt='Star' className='mx-1' />
-                                                            <Image src={star} alt='Star' className='mx-1' />
-                                                            <Image src={star} alt='Star' className='mx-1' />
-                                                            <Image src={star} alt='Star' className='mx-1' />
-                                                            <Image src={starB} alt='Star' className='mx-1' />
+                                                            <Image   src={star} alt='Star' className='mx-1' />
+                                                            <Image   src={star} alt='Star' className='mx-1' />
+                                                            <Image   src={star} alt='Star' className='mx-1' />
+                                                            <Image   src={star} alt='Star' className='mx-1' />
+                                                            <Image   src={starB} alt='Star' className='mx-1' />
                                                         </span>
                                                     </div>
                                                 </div>
@@ -118,17 +118,17 @@ const Testimonials = () => {
                                     <div className='mx-auto p-5'>
                                         <div className=''>
                                             <div className='testifonialTitle'>
-                                                <Image src={persion7} alt='Devon Lane' className='' />
+                                                <Image   src={persion7} alt='Devon Lane' className='' />
                                                 <div className=''>
                                                     <h5 className='semibolTextmd'>Devon Lane</h5>
                                                     <p className='regularTextDark'>Student</p>
                                                     <div>
                                                         <span className=''>
-                                                            <Image src={star} alt='Star' className='mx-1' />
-                                                            <Image src={star} alt='Star' className='mx-1' />
-                                                            <Image src={star} alt='Star' className='mx-1' />
-                                                            <Image src={star} alt='Star' className='mx-1' />
-                                                            <Image src={starB} alt='Star' className='mx-1' />
+                                                            <Image   src={star} alt='Star' className='mx-1' />
+                                                            <Image   src={star} alt='Star' className='mx-1' />
+                                                            <Image   src={star} alt='Star' className='mx-1' />
+                                                            <Image   src={star} alt='Star' className='mx-1' />
+                                                            <Image   src={starB} alt='Star' className='mx-1' />
                                                         </span>
                                                     </div>
                                                 </div>
@@ -145,17 +145,17 @@ const Testimonials = () => {
                                     <div className='mx-auto p-5'>
                                         <div className=''>
                                             <div className='testifonialTitle'>
-                                                <Image src={person8} alt='Devon Lane' className='' />
+                                                <Image   src={person8} alt='Devon Lane' className='' />
                                                 <div className=''>
                                                     <h5 className='semibolTextmd'>Kathryn Murphy</h5>
                                                     <p className='regularTextDark'>Student</p>
                                                     <div>
                                                         <span className=''>
-                                                            <Image src={star} alt='Star' className='mx-1' />
-                                                            <Image src={star} alt='Star' className='mx-1' />
-                                                            <Image src={star} alt='Star' className='mx-1' />
-                                                            <Image src={star} alt='Star' className='mx-1' />
-                                                            <Image src={starB} alt='Star' className='mx-1' />
+                                                            <Image   src={star} alt='Star' className='mx-1' />
+                                                            <Image   src={star} alt='Star' className='mx-1' />
+                                                            <Image   src={star} alt='Star' className='mx-1' />
+                                                            <Image   src={star} alt='Star' className='mx-1' />
+                                                            <Image   src={starB} alt='Star' className='mx-1' />
                                                         </span>
                                                     </div>
                                                 </div>
@@ -172,17 +172,17 @@ const Testimonials = () => {
                                     <div className='mx-auto p-5'>
                                         <div className=''>
                                             <div className='testifonialTitle'>
-                                                <Image src={anonymous} alt='anonymous' className='' />
+                                                <Image   src={anonymous} alt='anonymous' className='' />
                                                 <div className=''>
                                                     <h5 className='semibolTextmd'>Esther Howard</h5>
                                                     <p className='regularTextDark'>Student</p>
                                                     <div>
                                                         <span className=''>
-                                                            <Image src={star} alt='Star' className='mx-1' />
-                                                            <Image src={star} alt='Star' className='mx-1' />
-                                                            <Image src={star} alt='Star' className='mx-1' />
-                                                            <Image src={star} alt='Star' className='mx-1' />
-                                                            <Image src={starB} alt='Star' className='mx-1' />
+                                                            <Image   src={star} alt='Star' className='mx-1' />
+                                                            <Image   src={star} alt='Star' className='mx-1' />
+                                                            <Image   src={star} alt='Star' className='mx-1' />
+                                                            <Image   src={star} alt='Star' className='mx-1' />
+                                                            <Image   src={starB} alt='Star' className='mx-1' />
                                                         </span>
                                                     </div>
                                                 </div>

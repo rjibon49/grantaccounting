@@ -23,7 +23,7 @@ const Blog = () => {
                         <div className='blogBg'>
                             <div className=''>
                                 <div>
-                                    <Image src={blog1} alt='Course Image' className='' />
+                                    <Image   src={blog1} alt='Course Image' className='' />
                                 </div>
                                 <div className='p-4'>
                                     <Link href="/blog/accounting_for_goverment_grants"><a><h5 className='semibolTextmd'>Accounting for Government Grants</h5></a></Link>
@@ -33,8 +33,8 @@ const Blog = () => {
 
                                     <div>
                                         <ul className='d-flex justify-content-between p-0 mt-2 align-items-center'>
-                                            <li className=''><Image src={user} alt='watch' className='me-3' /> Leslie Alexander </li>
-                                            <li className=''><Image src={msg} alt='watch' className='me-3' /> 2 </li>
+                                            <li className=''><Image   src={user} alt='watch' className='me-3' /> Leslie Alexander </li>
+                                            <li className=''><Image   src={msg} alt='watch' className='me-3' /> 2 </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -45,7 +45,7 @@ const Blog = () => {
                         <div className='blogBg'>
                             <div className=''>
                                 <div>
-                                    <Image src={blog2} alt='Course Image' className='' />
+                                    <Image   src={blog2} alt='Course Image' className='' />
                                 </div>
                                 <div className='p-4'>
                                     <Link href="/blog/requirements_for_accounting"><h5 className='semibolTextmd'><a>Requirements for accounting for grants from the Government.</a></h5></Link>
@@ -55,8 +55,8 @@ const Blog = () => {
 
                                     <div>
                                         <ul className='d-flex justify-content-between p-0 mt-2 align-items-center'>
-                                            <li className=''><Image src={user} alt='watch' className='me-3' /> Devon Lane </li>
-                                            <li className=''><Image src={msg} alt='watch' className='me-3' /> 2 </li>
+                                            <li className=''><Image   src={user} alt='watch' className='me-3' /> Devon Lane </li>
+                                            <li className=''><Image   src={msg} alt='watch' className='me-3' /> 2 </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -67,7 +67,7 @@ const Blog = () => {
                         <div className='blogBg'>
                             <div className=''>
                                 <div>
-                                    <Image src={blog3} alt='Course Image' className='' />
+                                    <Image   src={blog3} alt='Course Image' className='' />
                                 </div>
                                 <div className='p-4'>
                                     <Link href="/blog/what_do_you_need_to_do"><h5 className='semibolTextmd'><a>What do you need to do to be good at grant accounting?</a></h5></Link>
@@ -77,8 +77,8 @@ const Blog = () => {
 
                                     <div>
                                         <ul className='d-flex justify-content-between p-0 mt-2 align-items-center'>
-                                            <li className=''><Image src={user} alt='watch' className='me-3' /> Devon Lane </li>
-                                            <li className=''><Image src={msg} alt='watch' className='me-3' /> 2 </li>
+                                            <li className=''><Image   src={user} alt='watch' className='me-3' /> Devon Lane </li>
+                                            <li className=''><Image   src={msg} alt='watch' className='me-3' /> 2 </li>
                                         </ul>
                                     </div>
                                 </div>

@@ -10,7 +10,7 @@ const AccountsForGovermentGrants = () => {
     return (
         <div className='my-5'>
             <div className='mb-5'>
-                <Image src={accountsFor} alt='' className='' />
+                <Image   src={accountsFor} alt='' className='' />
             </div>
             <div className='container'>
                 <div>
@@ -29,8 +29,8 @@ Government grants must be managed using the schedule of activities with expenses
 
                     <div>
                         <ul className='d-flex justify-content-between p-0 mt-2 align-items-center'>
-                            <li className=''><Image src={user} alt='watch' className='me-3' /> Leslie Alexander </li>
-                            <li className=''><Image src={msg} alt='watch' className='me-3' /> 2 </li>
+                            <li className=''><Image   src={user} alt='watch' className='me-3' /> Leslie Alexander </li>
+                            <li className=''><Image   src={msg} alt='watch' className='me-3' /> 2 </li>
                         </ul>
                     </div>
                     <div className='py-5'>

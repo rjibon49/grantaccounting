@@ -23,14 +23,14 @@ const Header = () => {
                                 </span> */}
                                 <span className='pe-5'>
                                     <select name="" id="" className='language pe-3'>
-                                        <option value="english"><Image src={us} alt='usa'className='' />English</option>
+                                        <option value="english"><Image   src={us} alt='usa'className='' />English</option>
                                         <option value="spanish">Spanish</option>
                                     </select>
                                 </span>
                                 <span className='search'>
                                     <input type="text" placeholder='' className='searchInput' />
                                     <span className='searchIcon'>
-                                        <Image src={search} alt='usa' className='' />
+                                        <Image   src={search} alt='usa' className='' />
                                     </span>
                                 </span>
                             </div>
@@ -38,8 +38,8 @@ const Header = () => {
                         <div className='col-xxl-6 col-xl-6 col-lg-6'>
                             <div className=''>
                                 <ul className='d-flex justify-content-end align-items-center'>
-                                    <li className='topBarIcon'><Image src={cart} alt='Cart Icon' className='' /></li>
-                                    <li className='topBarIcon'><Image src={notify} alt='Cart Icon' className='' /></li>
+                                    <li className='topBarIcon'><Image   src={cart} alt='Cart Icon' className='' /></li>
+                                    <li className='topBarIcon'><Image   src={notify} alt='Cart Icon' className='' /></li>
                                     <Link href="/login"><span className=''><a className='topBarInfo'>Login</a></span></Link>
                                     <Link href="/register"><span className=''><a className='topBarInfo'>Register</a></span></Link>
                                 </ul>
@@ -51,7 +51,7 @@ const Header = () => {
 
             <div className='container'>
                 <nav className="navbar navbar-expand-lg">
-                    <Link href="/"><a className='navbar-brand'><Image src={logo} alt='Logo' className='' /> </a></Link>
+                    <Link href="/"><a className='navbar-brand'><Image   src={logo} alt='Logo' className='' /> </a></Link>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>

@@ -10,12 +10,12 @@ const FinancialManagementServices = () => {
                 <div className='row'>
                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-xs-12 col-sm-12'>
                         <div className=''>
-                            <Image src={writing} alt='Financial Management Services' className='' />
+                            <Image   src={writing} alt='Financial Management Services' className='' />
                         </div>
                     </div>
                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-xs-12 col-sm-12 centerItem'>
                         <div>
-                            <Image src={wrIcon} alt='grant Writing icon' className='serviceImage'/>
+                            <Image   src={wrIcon} alt='grant Writing icon' className='serviceImage'/>
                             <h3 className='semibolTextLg mb-2'>Financial Management Services</h3>
                             <li className='semiRegulerTextmd'>-Business Process Analysis</li>
                             <li className='semiRegulerTextmd'>-Forecasting and Budgeting</li>

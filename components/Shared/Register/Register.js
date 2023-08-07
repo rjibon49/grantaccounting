@@ -10,7 +10,7 @@ const Register = () => {
                 <div className='row'>
                     <div className='col-xxl-8 col-xl-8 col-lg-7'>
                         <div className='loginImage'>
-                            <Image src={log} alt='Login Page Image' className='' />
+                            <Image   src={log} alt='Login Page Image' className='' />
                         </div>
                     </div>
                     <div className='col-xxl-4 col-xl-4 col-lg-5'>

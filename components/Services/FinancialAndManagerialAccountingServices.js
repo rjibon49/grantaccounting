@@ -10,12 +10,12 @@ const FinancialAndManagerialAccountingServices = () => {
                 <div className='row'>
                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-xs-12 col-sm-12'>
                         <div className=''>
-                            <Image src={finalcial} alt='financialAndManagement' className='' />
+                            <Image   src={finalcial} alt='financialAndManagement' className='' />
                         </div>
                     </div>
                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-xs-12 col-sm-12 centerItem'>
                         <div>
-                            <Image src={finalcialIcon} alt='financialAndManagementIcon' className='serviceImage'/>
+                            <Image   src={finalcialIcon} alt='financialAndManagementIcon' className='serviceImage'/>
                             <h3 className='semibolTextLg mb-2'>Financial and Managerial Accounting Services</h3>
                             <li className='semiRegulerTextmd'>-Accounting System Implementation</li>
                             <li className='semiRegulerTextmd'>-Bookkeeping and Accounting</li>

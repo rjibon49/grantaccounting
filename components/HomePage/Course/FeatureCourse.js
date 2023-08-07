@@ -32,7 +32,7 @@ const FeatureCourse = () => {
                         <Swiper
                             slidesPerView={1}
                             spaceBetween={30}
-                            loop={true}
+                            // loop={true}
                             autoplay={{
                             delay: 6000,
                             disableOnInteraction: false,
@@ -58,22 +58,22 @@ const FeatureCourse = () => {
                             //         spaceBetween: 20,
                             //     },
                             // }}
-                            modules={[ Autoplay, Navigation, Pagination]}
+                            // modules={[ Autoplay, Navigation, Pagination]}
                             className="mySwiper"
                             >
                             <SwiperSlide>
                                 <div className='row'>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 centerItem'>
-                                        <div>
+                                        <div className='mx-auto'>
                                             <Image src={cfr} alt='2 CFR 200' className='' />
                                         </div>
                                     </div>
-                                    <div className='col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12'>
-                                        <div className='featureBody py-5'>
-                                            <div className='me-5 fCourse'>
+                                    <div className='col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 centerItem'>
+                                        <div className='featureBody'>
+                                            <div className='fCourse'>
                                                 <div className='p-4'>
                                                     <div className='courseTitle'>
-                                                        <Image src={anthony} alt='Anthony Nguyen' className='instructorImage' />
+                                                        <Image   src={anthony} alt='Anthony Nguyen' className='instructorImage' />
                                                         <div className=''>
                                                             <Link href="/courses/cfr_200"><a><h5 className='semibolTextmd'>2 CFR 200</h5></a></Link>
                                                             <p className='regularTextDark' >Anthony Nguyen</p>
@@ -82,21 +82,21 @@ const FeatureCourse = () => {
                                                     <div>
                                                         <p className='regularTextDark'>For organizations that have federal awards, it is very important to be in compliance to rules with the federal government. We will have a course in helping our members to be in compliance and to assist in answering any questions. This course on demand and live. Please reach out to us to start a course for your organization.</p>
                                                     </div>
-                                                    <div>
+                                                    <div className='d-flex gap-3'>
                                                         <span className=''>
-                                                            <Image src={star} alt='Star' className='mx-1' />
-                                                            <Image src={star} alt='Star' className='mx-1' />
-                                                            <Image src={star} alt='Star' className='mx-1' />
-                                                            <Image src={star} alt='Star' className='mx-1' />
-                                                            <Image src={starSlash} alt='Star' className='ms-1 me-4' />
+                                                            <Image   src={star} alt='Star' className='mx-1' />
+                                                            <Image   src={star} alt='Star' className='mx-1' />
+                                                            <Image   src={star} alt='Star' className='mx-1' />
+                                                            <Image   src={star} alt='Star' className='mx-1' />
+                                                            <Image   src={starSlash} alt='Star' className='ms-1 me-4' />
                                                         </span>
                                                         <span className='regulerTextDark'>4.5</span>
                                                     </div>
                                                     <div>
-                                                        <ul className='d-flex justify-content-start p-0 mt-2 align-items-center'>
-                                                            <li className='me-3'><Image src={watch} alt='watch' className='' /> 2:50 Hours </li>
+                                                        <ul className='d-flex justify-content-start p-0 mt-2 align-items-center flex-wrap gap-2 '>
+                                                            <li className='me-3'><Image   src={watch} alt='watch' className='' /> 2:50 Hours </li>
                                                             <li className='me-3'> | </li>
-                                                            <li className='me-3'><Image src={calender} alt='watch' className='' /> 19 July 2023 </li>
+                                                            <li className='me-3'><Image   src={calender} alt='watch' className='' /> 19 July 2023 </li>
                                                             <Link href="/#"><a><li className='cartBtn'>Enroll</li></a></Link>
                                                         </ul>
                                                     </div>
@@ -109,16 +109,16 @@ const FeatureCourse = () => {
                             <SwiperSlide>
                                 <div className='row'>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 centerItem'>
-                                        <div>
-                                            <Image src={indicate} alt='Indicate Cost' className='' />
+                                        <div className='mx-auto'>
+                                            <Image   src={indicate} alt='Indicate Cost' className='' />
                                         </div>
                                     </div>
-                                    <div className='col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12'>
-                                        <div className='featureBody py-5'>
-                                            <div className='me-5 fCourse'>
+                                    <div className='col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 centerItem'>
+                                        <div className='featureBody'>
+                                            <div className='fCourse'>
                                                 <div className='p-4'>
                                                     <div className='courseTitle'>
-                                                        <Image src={anthony} alt='Anthony Nguyen' className='instructorImage' />
+                                                        <Image   src={anthony} alt='Anthony Nguyen' className='instructorImage' />
                                                         <div className=''>
                                                             <Link href="/#"><a><h5 className='semibolTextmd'>Indicate Cost</h5></a></Link>
                                                             <p className='regularTextDark' >Anthony Nguyen</p>
@@ -127,7 +127,7 @@ const FeatureCourse = () => {
                                                     <div>
                                                         <p className='regularTextDark'>Understanding indirect cost can help organization with obtaining cost that helps. Most organization uses the 10% De Minimis Rate or we can go in depth with 2 CFR 200.403.</p>
                                                     </div>
-                                                    <div>
+                                                    <div className='d-flex gap-3'>
                                                         <span className=''>
                                                             <Image src={star} alt='Star' className='mx-1' />
                                                             <Image src={star} alt='Star' className='mx-1' />
@@ -138,10 +138,10 @@ const FeatureCourse = () => {
                                                         <span className='regulerTextDark'>4.5</span>
                                                     </div>
                                                     <div>
-                                                        <ul className='d-flex justify-content-start p-0 mt-2 align-items-center'>
-                                                            <li className='me-3'><Image src={watch} alt='watch' className='' /> 2:50 Hours </li>
+                                                        <ul className='d-flex justify-content-start p-0 mt-2 align-items-center flex-wrap gap-2 '>
+                                                            <li className='me-3'><Image   src={watch} alt='watch' className='' /> 2:50 Hours </li>
                                                             <li className='me-3'> | </li>
-                                                            <li className='me-3'><Image src={calender} alt='watch' className='' /> 19 July 2023 </li>
+                                                            <li className='me-3'><Image   src={calender} alt='watch' className='' /> 19 July 2023 </li>
                                                             <Link href="/#"><a><li className='cartBtn'>Enroll</li></a></Link>
                                                         </ul>
                                                     </div>
@@ -155,15 +155,15 @@ const FeatureCourse = () => {
                                 <div className='row'>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 centerItem'>
                                         <div>
-                                            <Image src={salaryAndFringe} alt='Indicate Cost' className='' />
+                                            <Image   src={salaryAndFringe} alt='Indicate Cost' className='' />
                                         </div>
                                     </div>
-                                    <div className='col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12'>
-                                        <div className='featureBody py-5'>
-                                            <div className='me-5 fCourse'>
+                                    <div className='col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 centerItem'>
+                                        <div className='featureBody'>
+                                            <div className='fCourse'>
                                                 <div className='p-4'>
                                                     <div className='courseTitle'>
-                                                        <Image src={anthony} alt='Anthony Nguyen' className='instructorImage' />
+                                                        <Image   src={anthony} alt='Anthony Nguyen' className='instructorImage' />
                                                         <div className=''>
                                                             <Link href="/#"><a><h5 className='semibolTextmd'>Salary and Fringe Benefit - Salary Allocation</h5></a></Link>
                                                             <p className='regularTextDark' >Anthony Nguyen</p>
@@ -172,21 +172,21 @@ const FeatureCourse = () => {
                                                     <div>
                                                         <p className='regularTextDark'>A big expense of running the program are labor charges. Understanding how to calculate fringe benefit percentage and being in compliance with your budget for this line item is very important. This is our number one course. Please reach out to schedule this course immediately.</p>
                                                     </div>
-                                                    <div>
+                                                    <div className='d-flex gap-3'>
                                                         <span className=''>
-                                                            <Image src={star} alt='Star' className='mx-1' />
-                                                            <Image src={star} alt='Star' className='mx-1' />
-                                                            <Image src={star} alt='Star' className='mx-1' />
-                                                            <Image src={star} alt='Star' className='mx-1' />
-                                                            <Image src={starSlash} alt='Star' className='ms-1 me-4' />
+                                                            <Image   src={star} alt='Star' className='mx-1' />
+                                                            <Image   src={star} alt='Star' className='mx-1' />
+                                                            <Image   src={star} alt='Star' className='mx-1' />
+                                                            <Image   src={star} alt='Star' className='mx-1' />
+                                                            <Image   src={starSlash} alt='Star' className='ms-1 me-4' />
                                                         </span>
                                                         <span className='regulerTextDark'>4.5</span>
                                                     </div>
                                                     <div>
-                                                        <ul className='d-flex justify-content-start p-0 mt-2 align-items-center'>
-                                                            <li className='me-3'><Image src={watch} alt='watch' className='' /> 2:50 Hours </li>
+                                                        <ul className='d-flex justify-content-start p-0 mt-2 align-items-center flex-wrap gap-2 '>
+                                                            <li className='me-3'><Image   src={watch} alt='watch' className='' /> 2:50 Hours </li>
                                                             <li className='me-3'> | </li>
-                                                            <li className='me-3'><Image src={calender} alt='watch' className='' /> 19 July 2023 </li>
+                                                            <li className='me-3'><Image   src={calender} alt='watch' className='' /> 19 July 2023 </li>
                                                             <Link href="/#"><a><li className='cartBtn'>Enroll</li></a></Link>
                                                         </ul>
                                                     </div>

@@ -9,7 +9,7 @@ const AboutUs = () => {
                 <div className='row'>
                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 centerItem'>
                         <div className=''>
-                            <Image src={business} alt='Business Man' className='' />
+                            <Image   src={business} alt='Business Man' className='' />
                         </div>
                     </div>
                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 ps-xxl-5 ps-xl-5 centerItem'>

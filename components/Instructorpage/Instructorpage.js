@@ -20,18 +20,18 @@ const Instructorpage = () => {
                         <div className='col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-12 my-3'>
                             <div className='profileBody text-center mx-auto'>
                                 <div className='p-5'>
-                                    <Image src={persion1} alt='Start Round' className='' />
+                                    <Image   src={persion1} alt='Start Round' className='' />
                                     <div className='py-3'>
                                         <h5 className='semibolTextmd'>Robert Fox</h5>
                                         <p className='regulerTextDark'>ui/ux Instructor</p>
                                     </div>
                                     <div className='mb-3'>
                                         <span className=''>
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={starB} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={starB} alt='Star' className='mx-1' />
                                         </span>
                                     </div>
                                     <div className='text-center'>
@@ -43,18 +43,18 @@ const Instructorpage = () => {
                         <div className='col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-12 my-3'>
                             <div className='profileBody text-center mx-auto'>
                                 <div className='p-5'>
-                                    <Image src={persion2} alt='Start Round' className='' />
+                                    <Image   src={persion2} alt='Start Round' className='' />
                                     <div className='py-3'>
                                         <h5 className='semibolTextmd'>Kristin Watson</h5>
                                         <p className='regulerTextDark'>ui/ux Instructor</p>
                                     </div>
                                     <div className='mb-3'>
                                         <span className=''>
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={starB} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={starB} alt='Star' className='mx-1' />
                                         </span>
                                     </div>
                                     <div className='text-center'>
@@ -66,18 +66,18 @@ const Instructorpage = () => {
                         <div className='col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-12 my-3'>
                             <div className='profileBody text-center mx-auto'>
                                 <div className='p-5'>
-                                    <Image src={persion3} alt='Start Round' className='' />
+                                    <Image   src={persion3} alt='Start Round' className='' />
                                     <div className='py-3'>
                                         <h5 className='semibolTextmd'>Dianne Russell</h5>
                                         <p className='regulerTextDark'>ui/ux Instructor</p>
                                     </div>
                                     <div className='mb-3'>
                                         <span className=''>
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={starB} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={starB} alt='Star' className='mx-1' />
                                         </span>
                                     </div>
                                     <div className='text-center'>
@@ -89,18 +89,18 @@ const Instructorpage = () => {
                         <div className='col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-12 my-3'>
                             <div className='profileBody text-center mx-auto'>
                                 <div className='p-5'>
-                                    <Image src={persion4} alt='Start Round' className='' />
+                                    <Image   src={persion4} alt='Start Round' className='' />
                                     <div className='py-3'>
                                         <h5 className='semibolTextmd'>Jane Cooper</h5>
                                         <p className='regulerTextDark'>ui/ux Instructor</p>
                                     </div>
                                     <div className='mb-3'>
                                         <span className=''>
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={starB} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={starB} alt='Star' className='mx-1' />
                                         </span>
                                     </div>
                                     <div className='text-center'>
@@ -112,18 +112,18 @@ const Instructorpage = () => {
                         <div className='col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-12 my-3'>
                             <div className='profileBody text-center mx-auto'>
                                 <div className='p-5'>
-                                    <Image src={persion1} alt='Start Round' className='' />
+                                    <Image   src={persion1} alt='Start Round' className='' />
                                     <div className='py-3'>
                                         <h5 className='semibolTextmd'>Robert Fox</h5>
                                         <p className='regulerTextDark'>ui/ux Instructor</p>
                                     </div>
                                     <div className='mb-3'>
                                         <span className=''>
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={starB} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={starB} alt='Star' className='mx-1' />
                                         </span>
                                     </div>
                                     <div className='text-center'>
@@ -135,18 +135,18 @@ const Instructorpage = () => {
                         <div className='col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-12 my-3'>
                             <div className='profileBody text-center mx-auto'>
                                 <div className='p-5'>
-                                    <Image src={persion2} alt='Start Round' className='' />
+                                    <Image   src={persion2} alt='Start Round' className='' />
                                     <div className='py-3'>
                                         <h5 className='semibolTextmd'>Kristin Watson</h5>
                                         <p className='regulerTextDark'>ui/ux Instructor</p>
                                     </div>
                                     <div className='mb-3'>
                                         <span className=''>
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={starB} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={starB} alt='Star' className='mx-1' />
                                         </span>
                                     </div>
                                     <div className='text-center'>
@@ -158,18 +158,18 @@ const Instructorpage = () => {
                         <div className='col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-12 my-3'>
                             <div className='profileBody text-center mx-auto'>
                                 <div className='p-5'>
-                                    <Image src={persion3} alt='Start Round' className='' />
+                                    <Image   src={persion3} alt='Start Round' className='' />
                                     <div className='py-3'>
                                         <h5 className='semibolTextmd'>Dianne Russell</h5>
                                         <p className='regulerTextDark'>ui/ux Instructor</p>
                                     </div>
                                     <div className='mb-3'>
                                         <span className=''>
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={starB} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={starB} alt='Star' className='mx-1' />
                                         </span>
                                     </div>
                                     <div className='text-center'>
@@ -181,18 +181,18 @@ const Instructorpage = () => {
                         <div className='col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-12 my-3'>
                             <div className='profileBody text-center mx-auto'>
                                 <div className='p-5'>
-                                    <Image src={persion4} alt='Start Round' className='' />
+                                    <Image   src={persion4} alt='Start Round' className='' />
                                     <div className='py-3'>
                                         <h5 className='semibolTextmd'>Jane Cooper</h5>
                                         <p className='regulerTextDark'>ui/ux Instructor</p>
                                     </div>
                                     <div className='mb-3'>
                                         <span className=''>
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={starB} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={starB} alt='Star' className='mx-1' />
                                         </span>
                                     </div>
                                     <div className='text-center'>
@@ -204,18 +204,18 @@ const Instructorpage = () => {
                         <div className='col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-12 my-3'>
                             <div className='profileBody text-center mx-auto'>
                                 <div className='p-5'>
-                                    <Image src={persion1} alt='Start Round' className='' />
+                                    <Image   src={persion1} alt='Start Round' className='' />
                                     <div className='py-3'>
                                         <h5 className='semibolTextmd'>Robert Fox</h5>
                                         <p className='regulerTextDark'>ui/ux Instructor</p>
                                     </div>
                                     <div className='mb-3'>
                                         <span className=''>
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={starB} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={starB} alt='Star' className='mx-1' />
                                         </span>
                                     </div>
                                     <div className='text-center'>
@@ -227,18 +227,18 @@ const Instructorpage = () => {
                         <div className='col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-12 my-3'>
                             <div className='profileBody text-center mx-auto'>
                                 <div className='p-5'>
-                                    <Image src={persion2} alt='Start Round' className='' />
+                                    <Image   src={persion2} alt='Start Round' className='' />
                                     <div className='py-3'>
                                         <h5 className='semibolTextmd'>Kristin Watson</h5>
                                         <p className='regulerTextDark'>ui/ux Instructor</p>
                                     </div>
                                     <div className='mb-3'>
                                         <span className=''>
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={starB} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={starB} alt='Star' className='mx-1' />
                                         </span>
                                     </div>
                                     <div className='text-center'>
@@ -250,18 +250,18 @@ const Instructorpage = () => {
                         <div className='col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-12 my-3'>
                             <div className='profileBody text-center mx-auto'>
                                 <div className='p-5'>
-                                    <Image src={persion3} alt='Start Round' className='' />
+                                    <Image   src={persion3} alt='Start Round' className='' />
                                     <div className='py-3'>
                                         <h5 className='semibolTextmd'>Dianne Russell</h5>
                                         <p className='regulerTextDark'>ui/ux Instructor</p>
                                     </div>
                                     <div className='mb-3'>
                                         <span className=''>
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={starB} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={starB} alt='Star' className='mx-1' />
                                         </span>
                                     </div>
                                     <div className='text-center'>
@@ -273,18 +273,18 @@ const Instructorpage = () => {
                         <div className='col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-12 my-3'>
                             <div className='profileBody text-center mx-auto'>
                                 <div className='p-5'>
-                                    <Image src={persion4} alt='Start Round' className='' />
+                                    <Image   src={persion4} alt='Start Round' className='' />
                                     <div className='py-3'>
                                         <h5 className='semibolTextmd'>Jane Cooper</h5>
                                         <p className='regulerTextDark'>ui/ux Instructor</p>
                                     </div>
                                     <div className='mb-3'>
                                         <span className=''>
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={star} alt='Star' className='mx-1' />
-                                            <Image src={starB} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={star} alt='Star' className='mx-1' />
+                                            <Image   src={starB} alt='Star' className='mx-1' />
                                         </span>
                                     </div>
                                     <div className='text-center'>

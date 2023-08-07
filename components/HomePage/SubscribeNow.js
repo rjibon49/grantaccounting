@@ -16,7 +16,7 @@ const SubscribeNow = () => {
                         <div className='col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 mb-4'>
                             <div className='subsBody ms-auto'>
                                 <div className='p-5 text-center'>
-                                    <Image src={startR} alt='Start Round' className='' />
+                                    <Image   src={startR} alt='Start Round' className='' />
                                     <h4 className='semibolTextLg py-5'>Basic</h4>
                                 </div>
                                 <div className='subsInfo'>
@@ -33,7 +33,7 @@ const SubscribeNow = () => {
                         <div className='col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 mb-4'>
                             <div className='subsBody me-auto'>
                                 <div className='p-5 text-center'>
-                                    <Image src={dia} alt='Start Round' className='' />
+                                    <Image   src={dia} alt='Start Round' className='' />
                                     <h4 className='semibolTextLg py-5'>Platinum</h4>
                                 </div>
                                 <div className='subsInfo'>

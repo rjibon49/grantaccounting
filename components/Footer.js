@@ -33,12 +33,12 @@ const Footer = () => {
                         <div className='col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 centerItem py-5'>
                             <div>
                                 <div>
-                                    <Image src={logoLight} className='' alt='GA Logo Light' />
+                                    <Image   src={logoLight} className='' alt='GA Logo Light' />
                                 </div>
                                 <div className='mt-3'>
-                                    <Image src={insta} className='me-2' alt='Instagram Icon' />
-                                    <Image src={twitter} className='me-2' alt='Twitter Icon' />
-                                    <Image src={fb} className='me-2' alt='Facebopok Icon' />
+                                    <Image   src={insta} className='me-2' alt='Instagram Icon' />
+                                    <Image   src={twitter} className='me-2' alt='Twitter Icon' />
+                                    <Image   src={fb} className='me-2' alt='Facebopok Icon' />
                                 </div>
                             </div>
                         </div>

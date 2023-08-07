@@ -10,12 +10,12 @@ const StrategicPlanningServices = () => {
                 <div className='row'>
                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-xs-12 col-sm-12'>
                         <div className=''>
-                            <Image src={writing} alt='grant Writing' className='' />
+                            <Image   src={writing} alt='grant Writing' className='' />
                         </div>
                     </div>
                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-xs-12 col-sm-12 centerItem'>
                         <div>
-                            <Image src={wrIcon} alt='grant Writing icon' className='serviceImage'/>
+                            <Image   src={wrIcon} alt='grant Writing icon' className='serviceImage'/>
                             <h3 className='semibolTextLg mb-2'>Strategic Planning Services</h3>
                             <li className='semiRegulerTextmd'>-Development of Vision and Mission</li>
                             <li className='semiRegulerTextmd'>-Environmental Scanning</li>

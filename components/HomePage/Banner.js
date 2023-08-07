@@ -20,7 +20,7 @@ const Banner = () => {
                 </div>
                 <div className='col-xxl-6 col-xl-6 col-lg-6 d-none d-lg-block d-xl-block d-xxl-block p-0'>
                     <div className='mt-1'>
-                        <Image src={manHand} alt='Man hand typing Keyboard' className='bannerKeyboard' />
+                        <Image   src={manHand} alt='Man hand typing Keyboard' className='bannerKeyboard' />
                     </div>
                 </div>
             </div>
