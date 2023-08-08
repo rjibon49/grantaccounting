@@ -14,7 +14,7 @@ import indicate from "../../../public/src/images/course/cost1.png";
 import salaryAndFringe from "../../../public/src/images/course/salary.png";
 import crashCourse from "../../../public/src/images/course/crashCourse.png";
 import fundrising from "../../../public/src/images/course/fundrising.png";
-import faith from "../../../public/src/images/course/faith.png";
+import faith from "../../../public/src/images/course/faith.png"; 
 
 
 

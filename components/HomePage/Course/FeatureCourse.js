@@ -154,7 +154,7 @@ const FeatureCourse = () => {
                             <SwiperSlide>
                                 <div className='row'>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 centerItem'>
-                                        <div>
+                                        <div className='mx-auto'>
                                             <Image   src={salaryAndFringe} alt='Indicate Cost' className='' />
                                         </div>
                                     </div>

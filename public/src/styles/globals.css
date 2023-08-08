@@ -473,7 +473,7 @@ img {
 }
 .clone1 {
   position: absolute;
-  top: 115px;
+  top: 100px;
   left: -75px;
 }
 .clone2 {
@@ -532,7 +532,7 @@ img {
   background-image: url("../images//demo/instructorBg.png");
   background-repeat: no-repeat;
   background-size: contain;
-  height: 90vh;
+  height: 730px;
   background-position: center;
 }
 .instructorWidth {
@@ -638,7 +638,8 @@ img {
   background-image: url(../images/demo/volunteer.png);
   background-repeat: no-repeat;
   background-size: contain;
-  height: 65vh;
+  /* height: 65vh; */
+  height: 600px;
   background-position: center;
 }
 
@@ -681,7 +682,7 @@ img {
 ==========================================================*/
 
 /* Media Quary  */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
   
   .title {
     font-size: 40px;
@@ -709,11 +710,11 @@ img {
     right: 0px;
   }
   .instructorBg {
-    height: 60vh;
+    height: 520px;
   }
-  .bannerBg {
-    height: 65vh;
-  }
+  /* .bannerBg {
+    height: 52vh;
+  } */
   .fCourse {
     width: 100%;
   }
@@ -722,7 +723,7 @@ img {
     left: 50%;
   }
   .vImageBg {
-    height: 50vh;
+    height: 400px;
   }
   .footerText {
     width: 90%;
@@ -730,6 +731,10 @@ img {
 }
 
 @media (max-width: 768px) {
+  .bannerBg {
+    /* height: 60vh; */
+    padding: 30px 0;
+  }
   .title {
     font-size: 64px;
   }
@@ -752,13 +757,16 @@ img {
     display: none !important;
   }
   .instructorBg {
-    height: 45vh;
-  }
+    height: 390px;
+}
   .extraBoldColor {
-    font-size: 50px;
+    font-size: 40px;
   }
   .boldTextDark {
     font-size: 30px;
+  }
+  .semiBoldTextXl {
+    font-size: 25px;
   }
   .regularTextLgDark {
     font-size: 20px;
@@ -775,8 +783,13 @@ img {
 .fCourse {
   width: 100%;
 }
+.vContent {
+  position: absolute;
+  top: 20px;
+  left: 40%;
+}
 .vImageBg {
-  height: 40vh;
+  height: 300px;
 }
 .instructorBtn {
   font-size: 20px;
@@ -793,16 +806,17 @@ img {
 }
 @media (min-width: 321px) and (max-width: 480px) {
   .bannerBg {
-    height: 60vh;
+    /* height: 60vh; */
+    padding: 30px 0;
   }
   .title {
     font-size: 50px;
   }
   .extraBoldColor {
-    font-size: 40px;
+    font-size: 30px;
   }
   .semiBoldTextXl {
-    font-size: 25px;
+    font-size: 22px;
   }
   .Vdescription {
     max-width: 100%;
@@ -854,12 +868,14 @@ img {
   }
   .vContent {
     position: static;
+    padding-left: 35px;
   }
   .vImageBg {
-    height: 25vh;
+    height: 160px;
+    background-image: none;
 }
 .instructorBg {
-  height: 25vh;
+  height: 191px;
 }
 .instructorBtn {
   font-size: 16px;
@@ -879,11 +895,19 @@ img {
   margin: 0 auto;
   margin-bottom: 25px;
 }
+.subsBody {
+  width: 100%;
+  /* margin: 0px 40px; */
+}
+.subsInfo {
+  width: 95%;
+}
 }
 
 @media (max-width: 320px)  {
   .bannerBg {
-    height: 60vh;
+    /* height: 60vh; */
+    padding: 30px 0;
   }
   .title {
     font-size: 40px;
@@ -953,5 +977,10 @@ img {
 .footerLogo {
   margin: 0 auto;
   margin-bottom: 25px;
+}
+.instructorBg {
+  height: 198px;
+  background-image: none;
+  background: #f1f1f1;
 }
 }

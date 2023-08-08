@@ -46,25 +46,25 @@ const Footer = () => {
                             <div className='d-flex justify-content-between flex-wrap'>
                                 <div className='mb-5'>
                                     <p className='semibolTextmdLight'>Our Service</p>
-                                    <li className='semibolTextSmLight'>Features Course</li>
-                                    <li className='semibolTextSmLight'>Free Course</li>
-                                    <li className='semibolTextSmLight'>Best Selling Course</li>
-                                    <li className='semibolTextSmLight'>Top Rated Course</li>
-                                    <li className='semibolTextSmLight'>Newest Course</li>
+                                    <li className='semibolTextSmLight mb-3'>Features Course</li>
+                                    <li className='semibolTextSmLight mb-3'>Free Course</li>
+                                    <li className='semibolTextSmLight mb-3'>Best Selling Course</li>
+                                    <li className='semibolTextSmLight mb-3'>Top Rated Course</li>
+                                    <li className='semibolTextSmLight mb-3'>Newest Course</li>
                                 </div>
                                 <div className='mb-5'>
-                                    <p className='semibolTextmdLight'>Company</p>
-                                    <li className='semibolTextSmLight'>About us</li>
-                                    <li className='semibolTextSmLight'>Contact</li>
-                                    <li className='semibolTextSmLight'>Career</li>
-                                    <li className='semibolTextSmLight'>Donate</li>
-                                    <li className='semibolTextSmLight'>Volunteer</li>
+                                    <p className='semibolTextmdLight mb-3'>Company</p>
+                                    <li className='semibolTextSmLight mb-3'>About us</li>
+                                    <li className='semibolTextSmLight mb-3'>Contact</li>
+                                    <li className='semibolTextSmLight mb-3'>Career</li>
+                                    <li className='semibolTextSmLight mb-3'>Donate</li>
+                                    <li className='semibolTextSmLight mb-3'>Volunteer</li>
                                 </div>
                                 <div className='mb-5'>
-                                    <p className='semibolTextmdLight'>Resources</p>
-                                    <li className='semibolTextSmLight'>Blog</li>
-                                    <li className='semibolTextSmLight'>Help & Support</li>
-                                    <li className='semibolTextSmLight'>FAQ</li>
+                                    <p className='semibolTextmdLight mb-3'>Resources</p>
+                                    <li className='semibolTextSmLight mb-3'>Blog</li>
+                                    <li className='semibolTextSmLight mb-3'>Help & Support</li>
+                                    <li className='semibolTextSmLight mb-3'>FAQ</li>
                                 </div>
                             </div>
                         </div>
