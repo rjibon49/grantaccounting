@@ -14,7 +14,7 @@ import Link from 'next/link';
 
 const BestSellingCourses = () => {
     return (
-        <div className='pt-5'>
+        <div className='py-5'>
             <div className='container'>
                 <div className='text-center pb-5'>
                     <h3 className='semiBoldTextXl'>Best Selling Courses</h3>

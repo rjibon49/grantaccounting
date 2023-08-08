@@ -20,29 +20,29 @@ const Footer = () => {
                         </div>
                         <div className='col-xxl-8 col-xl-8 col-lg-8 my-3'>
                             <span className='joinSearch'>
-                                <input type="text" placeholder='Enter Your E-mail' className='joinSearchInput semibolTextmd ps-5' />
+                                <input type="text" placeholder='Enter Your E-mail' className='joinSearchInput semibolTextmd' />
                                 <button className='joinBtn'>Join Us</button>
                             </span>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className='footerBg'>
-                <div className='container'>
-                    <div className='row pt-5'>
-                        <div className='col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 centerItem py-5'>
-                            <div>
+            <div className='footerBg '>
+                <div className='container pt-5'>
+                    <div className='row py-5'>
+                        <div className='col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 centerItem'>
+                            <div className='footerLogo'>
                                 <div>
-                                    <Image   src={logoLight} className='' alt='GA Logo Light' />
+                                    <Image src={logoLight} className='' alt='GA Logo Light' />
                                 </div>
                                 <div className='mt-3'>
-                                    <Image   src={insta} className='me-2' alt='Instagram Icon' />
-                                    <Image   src={twitter} className='me-2' alt='Twitter Icon' />
-                                    <Image   src={fb} className='me-2' alt='Facebopok Icon' />
+                                    <span className='me-2'><Image src={insta} className='' alt='Instagram Icon' /></span>
+                                    <span className='me-2'><Image src={twitter} className='' alt='Twitter Icon' /></span>
+                                    <span className='me-2'><Image src={fb} className='' alt='Facebopok Icon' /></span>
                                 </div>
                             </div>
                         </div>
-                        <div className='col-xxl-8 col-xl-8 col-lg-8 col-md-6 col-sm-12 col-xs-12 py-5'>
+                        <div className='col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-sm-12 col-xs-12 mx-auto'>
                             <div className='d-flex justify-content-between flex-wrap'>
                                 <div className='mb-5'>
                                     <p className='semibolTextmdLight'>Our Service</p>
@@ -69,8 +69,8 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='pb-5 px-5'>
-                    <p className='semibolTextSmLight mx-5 px-5'>For quick responses please contact Anthony Nguyen: email: anguyen@grantaccounting.org , phone: (617) 371-7731. All services are guarantee discount or free of charge. We solve problems and bring solutions to all difficult grants.</p>
+                    <div className='footerText'>
+                        <p className='semibolTextSmLight '>For quick responses please contact Anthony Nguyen: email: anguyen@grantaccounting.org , phone: (617) 371-7731. <br /> All services are guarantee discount or free of charge. We solve problems and bring solutions to all difficult grants.</p>
                     </div>
                 </div>
             </div>

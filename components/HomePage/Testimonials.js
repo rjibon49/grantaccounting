@@ -22,7 +22,7 @@ const Testimonials = () => {
                     <h3 className='semiBoldTextXl'>Testimonials</h3>
                     <p className='regularTextDark'>What our customer say about us</p>
                 </div>
-                {/* <div className='text-end me-5 mt-5 mb-3'>
+                {/* <div className='text-end me-5   mb-3'>
                     <p className='viewBtn'>View All</p>
                 </div> */}
                 <div className='sliderbg'>
@@ -39,16 +39,22 @@ const Testimonials = () => {
                         clickable: true,
                         }}
                             breakpoints={{
+                                320: {
+                                    slidesPerView: 1,
+                                },
+                                420: {
+                                    slidesPerView: 1,
+                                },
                                 640: {
                                     slidesPerView: 1,
                                     spaceBetween: 20,
                                 },
                                 768: {
                                     slidesPerView: 2,
-                                    spaceBetween: 40,
+                                    spaceBetween: 30,
                                 },
                                 1024: {
-                                    slidesPerView: 3,
+                                    slidesPerView: 2,
                                     spaceBetween: 20,
                                 },
                                 1440: {
@@ -57,14 +63,14 @@ const Testimonials = () => {
                                 },
                             }}
                             modules={[Autoplay, Navigation, Pagination]}
-                            className="mySwiper py-5"
+                            className="mySwiper pt-5"
                             >
                             <SwiperSlide>
                                 <div className='testimonialBody'>
-                                    <div className='mx-auto p-5'>
+                                    <div className='p-xxl-5 p-xl-5 p-lg-5 p-md-3 tcustomPadding'>
                                         <div className=''>
                                             <div className='testifonialTitle'>
-                                                <Image   src={anonymous} alt='anonymous' className='' />
+                                                <Image src={anonymous} alt='anonymous' className='' />
                                                 <div className=''>
                                                     <h5 className='semibolTextmd'>Jerome Bell</h5>
                                                     <p className='regularTextDark'>Student</p>
@@ -88,7 +94,7 @@ const Testimonials = () => {
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className='testimonialBody'>
-                                    <div className='mx-auto p-5'>
+                                    <div className='p-xxl-5 p-xl-5 p-lg-5 p-md-3 tcustomPadding'>
                                         <div className=''>
                                             <div className='testifonialTitle'>
                                                 <Image   src={persion6} alt='Women' className='' />
@@ -115,7 +121,7 @@ const Testimonials = () => {
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className='testimonialBody'>
-                                    <div className='mx-auto p-5'>
+                                    <div className='p-xxl-5 p-xl-5 p-lg-5 p-md-3 tcustomPadding'>
                                         <div className=''>
                                             <div className='testifonialTitle'>
                                                 <Image   src={persion7} alt='Devon Lane' className='' />
@@ -142,7 +148,7 @@ const Testimonials = () => {
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className='testimonialBody'>
-                                    <div className='mx-auto p-5'>
+                                    <div className='p-xxl-5 p-xl-5 p-lg-5 p-md-3 tcustomPadding'>
                                         <div className=''>
                                             <div className='testifonialTitle'>
                                                 <Image   src={person8} alt='Devon Lane' className='' />
@@ -169,7 +175,7 @@ const Testimonials = () => {
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className='testimonialBody'>
-                                    <div className='mx-auto p-5'>
+                                    <div className='p-xxl-5 p-xl-5 p-lg-5 p-md-3 tcustomPadding'>
                                         <div className=''>
                                             <div className='testifonialTitle'>
                                                 <Image   src={anonymous} alt='anonymous' className='' />

@@ -22,9 +22,9 @@ const Team = () => {
                 </div>
                 <div>
                     <div className='row pt-5'>
-                        <div className='col-xxl-4 col-xl- col-lg-4 col-md-6 col-sm-12 col-xs-12 my-3'>
+                        <div className='col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12 my-3'>
                             <div className='profileBody text-center mx-4'>
-                                <div className='p-5'>
+                                <div className='p-xxl-5 p-xl-5 p-lg-5 p-md-3 p-sm-3 p-xs-3 customPadding'>
                                     <Image   src={anthony} alt='Anthony Nguyen' className='' />
                                     <div className='py-3'>
                                         <h5 className='semibolTextmd'>Anthony Nguyen</h5>
@@ -73,9 +73,9 @@ const Team = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-xxl-4 col-xl- col-lg-4 col-md-6 col-sm-12 col-xs-12 my-3'>
+                        <div className='col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12 my-3'>
                             <div className='profileBody text-center mx-4'>
-                                <div className='p-5'>
+                                <div className='p-xxl-5 p-xl-5 p-lg-5 p-md-3 p-sm-3 p-xs-3 customPadding'>
                                     <Image   src={nadia} alt='Nadia Stanizai' className='' />
                                     <div className='py-3'>
                                         <h5 className='semibolTextmd'>Nadia Stanizai</h5>
@@ -124,9 +124,9 @@ const Team = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-xxl-4 col-xl- col-lg-4 col-md-6 col-sm-12 col-xs-12 my-3'>
+                        <div className='col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12 my-3'>
                             <div className='profileBody text-center mx-4'>
-                                <div className='p-5'>
+                                <div className='p-xxl-5 p-xl-5 p-lg-5 p-md-3 p-sm-3 p-xs-3 customPadding'>
                                     <Image   src={vu} alt='Vu Nguyen' className='' />
                                     <div className='py-3'>
                                         <h5 className='semibolTextmd'>Vu Nguyen</h5>

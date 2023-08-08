@@ -35,8 +35,8 @@ A good knowledge of the law is also necessary, and a good grant accountant needs
 
                     <div>
                         <ul className='d-flex justify-content-between p-0 mt-2 align-items-center'>
-                            <li className=''><Image   src={user} alt='watch' className='me-3' /> Leslie Alexander </li>
-                            <li className=''><Image   src={msg} alt='watch' className='me-3' /> 2 </li>
+                            <li className=''><Image src={user} alt='watch' className='' /> <span className='ms-3'>Leslie Alexander</span> </li>
+                            <li className='centerItem'><Image src={msg} alt='Message Icon' className='' /> <span className='ms-3'> 2 </span> </li>
                         </ul>
                     </div>
                     <div className='py-5'>

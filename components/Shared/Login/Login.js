@@ -53,8 +53,8 @@ const Login = () => {
                             </div>
                         </form>
                         <div>
-                            <li className='loginLi mb-4'> <Link href="#" className=''><a><Image   src={goo} alt='Facebook Login icon' className='me-3' />Login with Google Account</a></Link></li>
-                            <li className='loginLi'><Link href="#" className=''><a><Image   src={fb} alt='Facebook Login icon' className='me-3' />Login with Facebook Account</a></Link></li>
+                            <li className='loginLi mb-4'> <Link href="#" className=''><a className='centerItem gap-3'><Image src={goo} alt='Facebook Login icon' />Login with Google Account</a></Link></li>
+                            <li className='loginLi'><Link href="#" className=''><a className='centerItem gap-3'><Image src={fb} alt='Facebook Login icon' />Login with Facebook Account</a></Link></li>
                         </div>
                         <div className='text-center mt-5'>
                             <p className='regularTextLgDark my-5'>Don't have an account ? <Link href="/register" className=''><a>Sign Up</a></Link></p>

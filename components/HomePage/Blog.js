@@ -19,11 +19,11 @@ const Blog = () => {
                     <p className='viewBtn'><Link href="/blog" className='viewBtn'><a>View All</a></Link></p>
                 </div>
                 <div className='row'>
-                    <div className='col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 my-3 mx-auto'>
+                    <div className='col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12 my-3 mx-auto'>
                         <div className='blogBg'>
                             <div className=''>
-                                <div>
-                                    <Image   src={blog1} alt='Course Image' className='' />
+                                <div className='text-center'>
+                                    <Image src={blog1} alt='Course Image' className='' />
                                 </div>
                                 <div className='p-4'>
                                     <Link href="/blog/accounting_for_goverment_grants"><a><h5 className='semibolTextmd'>Accounting for Government Grants</h5></a></Link>
@@ -33,18 +33,18 @@ const Blog = () => {
 
                                     <div>
                                         <ul className='d-flex justify-content-between p-0 mt-2 align-items-center'>
-                                            <li className=''><Image   src={user} alt='watch' className='me-3' /> Leslie Alexander </li>
-                                            <li className=''><Image   src={msg} alt='watch' className='me-3' /> 2 </li>
+                                            <li className=''><Image src={user} alt='watch' className='' /> <span className='ms-3'>Leslie Alexander</span> </li>
+                                            <li className='centerItem'><Image src={msg} alt='Message Icon' className='' /> <span className='ms-3'> 2 </span> </li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className='col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 my-3 mx-auto'>
+                    <div className='col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12 my-3 mx-auto'>
                         <div className='blogBg'>
                             <div className=''>
-                                <div>
+                                <div className='text-center'>
                                     <Image   src={blog2} alt='Course Image' className='' />
                                 </div>
                                 <div className='p-4'>
@@ -55,18 +55,18 @@ const Blog = () => {
 
                                     <div>
                                         <ul className='d-flex justify-content-between p-0 mt-2 align-items-center'>
-                                            <li className=''><Image   src={user} alt='watch' className='me-3' /> Devon Lane </li>
-                                            <li className=''><Image   src={msg} alt='watch' className='me-3' /> 2 </li>
+                                            <li className='centerItem'><Image src={user} alt='watch' className='' /> <span className='ms-3'>Devon Lane</span> </li>
+                                            <li className='centerItem'><Image src={msg} alt='Message Icon' className='' /> <span className='ms-3'> 2 </span> </li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className='col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 my-3 mx-auto'>
+                    <div className='col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12 my-3 mx-auto'>
                         <div className='blogBg'>
                             <div className=''>
-                                <div>
+                                <div className='text-center'>
                                     <Image   src={blog3} alt='Course Image' className='' />
                                 </div>
                                 <div className='p-4'>
@@ -77,8 +77,8 @@ const Blog = () => {
 
                                     <div>
                                         <ul className='d-flex justify-content-between p-0 mt-2 align-items-center'>
-                                            <li className=''><Image   src={user} alt='watch' className='me-3' /> Devon Lane </li>
-                                            <li className=''><Image   src={msg} alt='watch' className='me-3' /> 2 </li>
+                                            <li className='centerItem'><Image src={user} alt='watch' className='' /> <span className='ms-3'>Devon Lane</span> </li>
+                                            <li className='centerItem'><Image src={msg} alt='Message Icon' className='' /> <span className='ms-3'> 2 </span> </li>
                                         </ul>
                                     </div>
                                 </div>

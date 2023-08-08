@@ -404,6 +404,7 @@ img {
   background: #FFFFFF;
   border-radius: 91px;
   border: 0;
+  padding-left: 30px;
 }
 .joinSearchInput::placeholder {
   font-style: normal;
@@ -531,8 +532,8 @@ img {
   background-image: url("../images//demo/instructorBg.png");
   background-repeat: no-repeat;
   background-size: contain;
+  height: 90vh;
   background-position: center;
-  height: 100vh;
 }
 .instructorWidth {
   max-width: 395px;
@@ -559,7 +560,8 @@ img {
   transition: 0.2s ease-in-out;
 }
 .subsInfo {
-  padding-left: 25%;
+  width: 65%;
+  margin: 0 auto;
 }
 .subsInfo li {
   list-style: initial !important;
@@ -567,7 +569,6 @@ img {
 }
 
 .profileBody {
-  /* width: 312px; */
   background: #FBFBFB;;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
   border-radius: 20px;  
@@ -577,10 +578,11 @@ img {
   transition: 0.2s ease-in-out;
 }
 .testimonialBody {
-  /* width: 424px; */
+  width: 95%;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   background: #F3F4F3;
+  margin: 0 auto;
 }
 .testifonialTitle {
   display: flex;
@@ -636,7 +638,8 @@ img {
   background-image: url(../images/demo/volunteer.png);
   background-repeat: no-repeat;
   background-size: contain;
-  height: 75vh;
+  height: 65vh;
+  background-position: center;
 }
 
 .vBody {
@@ -668,6 +671,12 @@ img {
   font-size: 18px;
   font-weight: 600;
 }
+
+.footerText {
+  width: 77%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
 /* ================= ================= =================== 
 ==========================================================*/
 
@@ -678,7 +687,10 @@ img {
     font-size: 40px;
   }
   .extraBoldColor {
-    font-size: 50px;
+    font-size: 45px;
+  }
+  .boldTextDark {
+    font-size: 30px;
   }
   .semiBoldTextXl {
     font-size: 25px;
@@ -697,7 +709,7 @@ img {
     right: 0px;
   }
   .instructorBg {
-    height: 75vh;
+    height: 60vh;
   }
   .bannerBg {
     height: 65vh;
@@ -711,6 +723,9 @@ img {
   }
   .vImageBg {
     height: 50vh;
+  }
+  .footerText {
+    width: 90%;
   }
 }
 
@@ -737,7 +752,7 @@ img {
     display: none !important;
   }
   .instructorBg {
-    height: 50vh;
+    height: 45vh;
   }
   .extraBoldColor {
     font-size: 50px;
@@ -762,6 +777,18 @@ img {
 }
 .vImageBg {
   height: 40vh;
+}
+.instructorBtn {
+  font-size: 20px;
+  line-height: 120%;
+  width: 260px;
+  height: 50px;
+}
+.joinContent {
+  max-width: 100%;
+}
+.footerText {
+  width: 100%;
 }
 }
 @media (min-width: 321px) and (max-width: 480px) {
@@ -811,7 +838,7 @@ img {
   }
   .joinSearchInput::placeholder {
     font-size: 15px;
-    padding-left: 20px;
+    
   }
   .joinBtn {
     font-size: 22px;
@@ -830,6 +857,27 @@ img {
   }
   .vImageBg {
     height: 25vh;
+}
+.instructorBg {
+  height: 25vh;
+}
+.instructorBtn {
+  font-size: 16px;
+  width: 200px;
+  height: 45px;
+}
+.customPadding {
+  padding: 20px 0;
+}
+.tcustomPadding {
+  padding: 30px 20px;
+}
+.joinBodyBg {
+  height: 260px;
+}
+.footerLogo {
+  margin: 0 auto;
+  margin-bottom: 25px;
 }
 }
 
@@ -863,8 +911,8 @@ img {
   .fCourse {
     width: 100%;
   }
-  .subsInfo {
-    padding-left: 12%;
+  .subsBody {
+    width: 100%;
 }
 .joinBodyBg {
   padding: 0;
@@ -874,7 +922,6 @@ img {
 }
 .joinSearchInput::placeholder {
   font-size: 15px;
-  padding-left: 20px;
 }
 .joinBtn {
   font-size: 16px;
@@ -896,5 +943,15 @@ img {
 }
 .vImageBg {
   display: none;
+}
+.customPadding {
+  padding: 20px 0;
+}
+.tcustomPadding {
+  padding: 20px 10px;
+}
+.footerLogo {
+  margin: 0 auto;
+  margin-bottom: 25px;
 }
 }

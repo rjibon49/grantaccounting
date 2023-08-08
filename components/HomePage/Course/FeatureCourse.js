@@ -32,7 +32,7 @@ const FeatureCourse = () => {
                         <Swiper
                             slidesPerView={1}
                             spaceBetween={30}
-                            // loop={true}
+                            loop={true}
                             autoplay={{
                             delay: 6000,
                             disableOnInteraction: false,
@@ -58,7 +58,7 @@ const FeatureCourse = () => {
                             //         spaceBetween: 20,
                             //     },
                             // }}
-                            // modules={[ Autoplay, Navigation, Pagination]}
+                            modules={[ Autoplay, Navigation, Pagination]}
                             className="mySwiper"
                             >
                             <SwiperSlide>
